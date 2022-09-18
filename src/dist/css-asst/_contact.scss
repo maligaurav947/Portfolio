@@ -1,0 +1,98 @@
+.main-contact {
+  &__main {
+    @include flexalignjustify;
+    height: 80%;
+    gap: 25px;
+
+    &__img {
+     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+      img {
+        height: 450px;
+      }
+    }
+  
+  }
+}
+
+.form {
+
+  .label-list {
+    font-size: 2.2rem;
+    font-family: "Hachi Maru Pop", cursive;
+    input {
+      padding: 0 0.3em;
+      text-align: unset;
+      color: white;
+      margin: 1em 0;
+      width: 500px;
+      height: 45px;
+      outline: none;
+      background-color: transparent;
+      border: none;
+      border-bottom: 2px solid white;
+      font-size: 2rem;
+    }
+    textarea {
+      margin: 1em 0;
+      font-size: 2rem;
+      min-height: 100px;
+      max-height: 100px;
+      outline: none;
+      max-width: 500px;
+      width: 500px;
+      min-width: 500px;
+      background-color: transparent;
+      border: none;
+      border-bottom: 2px solid white;
+      padding: 0.2em 0.3em;
+      text-align: left;
+      color: white;
+    }
+  }
+
+}
+
+.button-30 {
+ align-items: center;
+ appearance: none;
+ background-color: #FCFCFD;
+ border-radius: 4px;
+ border-width: 0;
+ box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+ box-sizing: border-box;
+ color: #36395A;
+ cursor: pointer;
+ display: inline-flex;
+ font-family: "JetBrains Mono",monospace;
+ height: 48px;
+ justify-content: center;
+ line-height: 1;
+ list-style: none;
+ overflow: hidden;
+ padding-left: 16px;
+ padding-right: 16px;
+ position: relative;
+ text-align: left;
+ text-decoration: none;
+ transition: box-shadow .15s,transform .15s;
+ user-select: none;
+ -webkit-user-select: none;
+ touch-action: manipulation;
+ white-space: nowrap;
+ will-change: box-shadow,transform;
+ font-size: 18px;
+}
+
+.button-30:focus {
+ box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+ box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+ transform: translateY(-2px);
+}
+
+.button-30:active {
+ box-shadow: #D6D6E7 0 3px 7px inset;
+ transform: translateY(2px);
+}

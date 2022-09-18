@@ -1,0 +1,52 @@
+.main-hero {
+display: flex;
+align-items: center;
+justify-content: space-around;
+background: url(https://i.pinimg.com/originals/1a/71/58/1a7158689e5ce37e5d78d97c332a003f.gif);
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100%;
+image-rendering: optimizeQuality;
+background-attachment: fixed;
+  &__text {
+
+   &__subtitle{
+    font-size: 5rem;
+    font-family: $sec-ff;
+    
+   }
+    &__maintitle {
+      font-size: 12.5rem;
+      font-family: $primary-ff;
+    }
+    &__icon{
+     text-align: end;
+     font-size: 3.5rem;
+     outline: none;
+     a{
+      cursor: pointer;
+      color: white;
+      outline: none;
+     }
+     svg{
+      margin: 0.5em 0.2em 0;
+     }
+    }
+  }
+
+  .main-hero__img {
+    &__esllipse {
+      width: 400px;
+      height: 550px;
+      background: url(../resourse/WhatsApp\ Image\ 2022-08-04\ at\ 5.00.00\ PM.jpeg)
+        no-repeat center;
+      background-size: cover;
+      border-radius: 50% 50% 50% 50% / 67% 67% 33% 33%;
+      transition: 400ms all ease-in-out;
+      box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+      &:hover{
+        box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+    }
+  }
+}
