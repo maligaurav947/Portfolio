@@ -12,8 +12,8 @@ const Skill = () => {
         <div className="main-section__skill__list">
           <div
             className="main-section__skill__list__items left"
-            data-aos="fade-left"
-            data-os="fade-right"
+            data-aos="fade-right"
+            data-os="fade-left"
             data-aos-offset="100"
             data-aos-delay="2"
             data-aos-duration="500"
@@ -28,8 +28,8 @@ const Skill = () => {
           </div>
           <div
             className="main-section__skill__list__items center"
-            data-aos="fade-left"
-            data-os="fade-right"
+            data-aos="fade-right"
+            data-os="fade-left"
             data-aos-offset="100"
             data-aos-delay="2"
             data-aos-duration="500"
@@ -44,8 +44,8 @@ const Skill = () => {
           </div>
           <div
             className="main-section__skill__list__items right"
-            data-aos="fade-left"
-            data-os="fade-right"
+            data-aos="fade-right"
+            data-os="fade-left"
             data-aos-offset="100"
             data-aos-delay="2"
             data-aos-duration="500"
@@ -62,7 +62,7 @@ const Skill = () => {
         <div className="main-section__skill__list">
           <div
             className="main-section__skill__list__items left"
-            data-os="fade-left"
+            data-os="fade-right"
             data-aos="fade-right"
             data-aos-offset="100"
             data-aos-delay="2"
