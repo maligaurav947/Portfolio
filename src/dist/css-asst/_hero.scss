@@ -38,8 +38,9 @@ background-attachment: fixed;
     &__esllipse {
       width: 400px;
       height: 550px;
-      background: url(../resourse/WhatsApp\ Image\ 2022-08-04\ at\ 5.00.00\ PM.jpeg)
-        no-repeat center;
+      background: url(https://avatars.githubusercontent.com/u/86152880?v=4)
+      no-repeat center;
+     background-size: cover;
       background-size: cover;
       border-radius: 50% 50% 50% 50% / 67% 67% 33% 33%;
       transition: 400ms all ease-in-out;

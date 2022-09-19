@@ -26,10 +26,8 @@ export default class Hero extends Component {
             </a>
           </div>
         </div>
-        <div className="main-hero__img">
-          <div className="main-hero__img__esllipse">
-            <img src=""></img>
-          </div>
+        <div className="main-hero__img ">
+          <div className="main-hero__img__esllipse "></div>
         </div>
       </section>
     );
