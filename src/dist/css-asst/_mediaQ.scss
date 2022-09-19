@@ -2,7 +2,19 @@
   //header
 
   .main-header {
-    display: none;
+  top: 50%;
+left: 90%;
+flex-direction: column;
+&__ul{
+  width: 50px;
+  height: 50px;
+  font-size: 2rem;
+}
+.left-ul,.right-ul,.center-ul{
+  &:hover,&:focus {
+    box-shadow: none;
+  }
+}
   }
   //hero
   .main-hero {
