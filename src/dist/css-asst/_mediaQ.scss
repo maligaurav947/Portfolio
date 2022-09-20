@@ -54,7 +54,7 @@ flex-direction: column;
       margin: 0;
       flex-direction: column;
       &__items {
-        margin: 0.4em 0;
+        margin: 0.8em 0;
       }
     }
   }
@@ -94,10 +94,13 @@ flex-direction: column;
     }
   }
   .main-contact {
-    height: 110vh;
+    height: 100%;
     &__main {
       flex-direction: column;
       margin-top: 10vh;
+      &__img{
+        width: 100%;
+      }
     }
   }
   .form {

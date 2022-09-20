@@ -7,10 +7,21 @@ export default class Contact extends Component {
         <h3 className="section-title">Contact Me</h3>
         <main className="main-contact__main">
           <div className="main-contact__main__img">
-            <img
-              src="https://cdn.pixabay.com/photo/2022/09/09/15/16/monastery-7443192_960_720.jpg"
-              className="skeleton"
-            />
+            <h3>How To Contact ME</h3>
+            <ul>
+              <a href="">
+                <li>maligaurav947@gmail,com</li>
+              </a>
+              <a href="">
+                Instagram<li></li>
+              </a>
+              <a href="">
+                <li>+917743971581</li>
+              </a>
+              <a href="">
+                <li>Github</li>
+              </a>
+            </ul>
           </div>
           <div className="main-contact__main__form">
             <form
