@@ -17,6 +17,9 @@ z-index: 99;
  color: $text-color-sec;
  cursor: pointer;
  transition: all 250ms ease-out;
+ &::selection{
+  background-color: transparent
+ }
  a{
   @include grid;
  }
