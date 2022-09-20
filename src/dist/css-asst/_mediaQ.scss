@@ -100,6 +100,17 @@ flex-direction: column;
       margin-top: 10vh;
       &__img{
         width: 100%;
+        h3{
+          font-size: 3.5rem;
+        }
+    a{
+      font-size: 1.5rem;
+    }
+&_items{
+  &__flex{
+      font-size: 1.8rem;
+  }
+}
       }
     }
   }
