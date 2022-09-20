@@ -1,6 +1,8 @@
 @media screen and(max-width:456px) {
   //header
-
+  .section-title{
+    font-size: 3.5rem;
+  }
   .main-header {
   top: 50%;
 left: 90%;
@@ -95,11 +97,35 @@ flex-direction: column;
   }
   .main-contact {
     height: 100%;
+    overflow: hidden;
     &__main {
       flex-direction: column;
       margin-top: 10vh;
       &__img{
         width: 100%;
+        .design{
+         width: 100px;
+         height: 100px;
+         background-color: rgba(255, 255, 255, 0.354);
+        }
+        .design-1{
+          top: -50px;
+          left: -50px;
+        }
+        .design-2{
+          bottom: -50px;
+          left: -50px;
+        }
+        .design-3{
+          display: block;
+          top: -50px;
+          right: -50px;
+        }
+        .design-4{
+          display: block;
+          bottom: -50px;
+          right: -50px;
+        }
         h3{
           font-size: 3.5rem;
         }
