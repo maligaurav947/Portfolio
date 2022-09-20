@@ -20,7 +20,7 @@ function App() {
         <PacmanLoader
           color={"#e2ff02"}
           loading={loading}
-          size={100}
+          size={50}
           className="loader"
         />
       ) : (
