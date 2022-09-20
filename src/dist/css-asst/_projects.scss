@@ -19,6 +19,9 @@
         image-rendering: auto;
         object-position: top;
     opacity: 1;
+    &::selection{
+      background: transparent;
+    }
       }
       &__text {
         position: relative;
@@ -28,11 +31,19 @@
           text-align: center;
           font-size: 3.5rem;
           font-family: "Cutive Mono", monospace;
+          &::selection{
+            background: white;
+          color: black; 
+          }
         }
         &__info {
           padding: 0 0.4em;
           font-family: "Hachi Maru Pop", cursive;
           font-size: 1.1rem;
+          &::selection{
+            background: white;
+          color: black; 
+          }
         }
       }
     }

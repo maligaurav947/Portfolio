@@ -11,7 +11,9 @@
  align-items: center;
  justify-content: space-evenly;
  gap: 15px;
-
+ &::selection{
+  background: transparent;
+ }
  &__items{
   transition: 400ms all ease-in-out;
 display: flex;
@@ -21,6 +23,9 @@ justify-content: space-between;
   height: 150px;
   border-radius: 15px;
   background-color: aliceblue;
+  &::selection{
+    background: transparent;
+   }
   &__circle{
    margin: 0 0.9em;
    width: 140px ;
@@ -29,12 +34,23 @@ justify-content: space-between;
    background-position: center;
    background-size: contain;
    background-repeat: no-repeat;
+   &::selection{
+    background: transparent;
+   }
+   img{
+    &::selection{
+      background: transparent;
+     }
+   }
   }
   &__text{
    margin: 0 0.7em;
    color: black;
    font-size: 6.4rem;
    font-family: $primary-ff;
+   &::selection{
+    background: transparent;
+   }
   }
  }
 }
