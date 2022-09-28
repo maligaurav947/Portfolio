@@ -1,4 +1,3 @@
-
 .main-project {
   display: grid;
   justify-content: center;
@@ -9,7 +8,7 @@
     &__items {
       width: 370px;
       height: 470px;
-      background-color: #313030;
+      background-color: #50ac97;
       box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
       text-align: justify;
       margin: 0 0.5em;
@@ -19,10 +18,10 @@
         object-fit: cover;
         image-rendering: auto;
         object-position: top;
-    opacity: 1;
-    &::selection{
-      background: transparent;
-    }
+        opacity: 1;
+        &::selection {
+          background: transparent;
+        }
       }
       &__text {
         position: relative;
@@ -32,18 +31,19 @@
           text-align: center;
           font-size: 3.5rem;
           font-family: "Cutive Mono", monospace;
-          &::selection{
+          &::selection {
             background: white;
-          color: black; 
+            color: black;
           }
         }
         &__info {
           padding: 0 0.4em;
-          font-family: 'Hachi Maru Pop', cursive;
           font-size: 1.2rem;
-          &::selection{
+          line-height: 1.3;
+          font-family: 'Hachi Maru Pop', cursive;
+          &::selection {
             background: white;
-          color: black; 
+            color: black;
           }
         }
       }

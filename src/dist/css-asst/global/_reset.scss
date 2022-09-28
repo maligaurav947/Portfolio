@@ -2,6 +2,7 @@
  margin: 0;
  padding: 0;
  box-sizing: border-box;
+
 }
 html{
  font-size: 62.5%;
@@ -9,6 +10,7 @@ html{
  
 }
 body{
+ background-color: #f9de68;
  font-size: 1.6rem;
  background-color: $primary-bg-color;
  color: $text-color-primary;

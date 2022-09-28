@@ -6,8 +6,9 @@ import Project from "./js-asst/Project";
 import SkillList from "./js-asst/SkillList";
 import { useState, useEffect } from "react";
 import PacmanLoader from "react-spinners/PacmanLoader";
+
 function App() {
-  const [loading, setLoading] = useState(false);
+const [loading, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {

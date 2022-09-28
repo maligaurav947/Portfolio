@@ -7,10 +7,6 @@ export default class Contact extends Component {
         <h3 className="section-title">Contact Me</h3>
         <main className="main-contact__main">
           <div className="main-contact__main__img">
-            <div className="design-1 design"></div>
-            <div className="design-2 design"></div>
-            <div className="design-3 design"></div>
-            <div className="design-4 design"></div>
             <h3>How To Contact ME</h3>
             <ul>
               <div className="main-contact__main__img__items">

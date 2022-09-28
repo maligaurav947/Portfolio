@@ -18,17 +18,15 @@ const Project = () => {
           <div className="main-project__card__items__text">
             <h4 className="main-project__card__items__text__title">Toy Shop</h4>
             <p className="main-project__card__items__text__info">
-              The standard chunk of Lorem Ipsum used since the 1500s is
-              reproduced below for those interested. The standard chunk of Lorem
-              Ipsum used since the 1500s is reproduced below for those
-              interested.
+              The Toy Shop First Project That i Use In Account System The Toy
+              Shop is Fully Responsive , Account Mangement
             </p>
             <div className="btn-group">
               <button class="button-86" role="button">
-                Code
+                <a href="">Code</a>
               </button>
               <button class="button-86" role="button">
-                GO LIVE
+                <a href="">GO LIVE</a>
               </button>
             </div>
           </div>
@@ -44,17 +42,16 @@ const Project = () => {
               Bank For Dev
             </h4>
             <p className="main-project__card__items__text__info">
-              The standard chunk of Lorem Ipsum used since the 1500s is
-              reproduced below for those interested. The standard chunk of Lorem
-              Ipsum used since the 1500s is reproduced below for those
-              interested.
+              For This Project I get Idea From Bank Website And Try Some Account
+              System And Each Account Have There Own Balance System That Are
+              Store in JS-Object's
             </p>
             <div className="btn-group">
               <button class="button-86" role="button">
-                Code
+                <a href="">Code</a>
               </button>
               <button class="button-86" role="button">
-                GO LIVE
+                <a href="">GO LIVE</a>
               </button>
             </div>
           </div>
@@ -70,17 +67,15 @@ const Project = () => {
               Show Case
             </h4>
             <p className="main-project__card__items__text__info">
-              The standard chunk of Lorem Ipsum used since the 1500s is
-              reproduced below for those interested. The standard chunk of Lorem
-              Ipsum used since the 1500s is reproduced below for those
-              interested.
+              The Is The Collection Of My Small Project Called ShowCase And It
+              Contain All Type Of Project
             </p>
             <div className="btn-group">
               <button class="button-86" role="button">
-                Code
+                <a href="">Code</a>
               </button>
               <button class="button-86" role="button">
-                GO LIVE
+                <a href="">GO LIVE</a>
               </button>
             </div>
           </div>

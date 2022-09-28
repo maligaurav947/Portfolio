@@ -19,27 +19,9 @@
         border-radius: 100%;
         z-index: index -3;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
-background-color: #36395a6b;
-        
-        
+        background-color: #36395a6b;
       }
-      .design-1 {
-        top: -90px;
-        left: -100px;
-        &::selection {
-          background-color: transparent;
-        }
-      }
-      .design-2{
-        bottom: -90px;
-        left: -100px;
-        &::selection {
-          background-color: transparent;
-        }
-      }
-      .design-3,.design-4{
-        display: none;
-      }
+     
       h3 {
         text-align: center;
         font-size: 7.5rem;
@@ -54,6 +36,7 @@ background-color: #36395a6b;
         display: grid;
         align-items: center;
         justify-content: center;
+
         h4 {
           &::selection {
             background-color: transparent;
@@ -67,7 +50,7 @@ background-color: #36395a6b;
           color: white;
           margin-left: 2vh;
           font-size: 2.1rem;
-          font-family: $sec-ff;
+          font-family: 'Caveat', cursive;
           text-decoration: none;
           &::selection {
             background-color: white;
@@ -91,7 +74,7 @@ background-color: #36395a6b;
   }
 }
 
-.form {
+.form {        font-family: 'Caveat', cursive;
   &::selection {
     background-color: transparent;
   }
