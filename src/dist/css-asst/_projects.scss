@@ -1,3 +1,4 @@
+
 .main-project {
   display: grid;
   justify-content: center;
@@ -38,8 +39,8 @@
         }
         &__info {
           padding: 0 0.4em;
-          font-family: "Hachi Maru Pop", cursive;
-          font-size: 1.1rem;
+          font-family: 'Hachi Maru Pop', cursive;
+          font-size: 1.2rem;
           &::selection{
             background: white;
           color: black; 
