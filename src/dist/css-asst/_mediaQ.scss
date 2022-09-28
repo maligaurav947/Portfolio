@@ -1,29 +1,34 @@
-@media screen and(max-width:456px) {
+@media screen and(max-width:750px) {
   //header
-  .section-title{
+  .section-title {
     font-size: 3.5rem;
   }
   .main-header {
-  top: 50%;
-left: 90%;
-flex-direction: column;
-&__ul{
-  width: 50px;
-  height: 50px;
-  font-size: 2rem;
-}
-.left-ul,.right-ul,.center-ul{
-  &:hover,&:focus {
-    box-shadow: none;
+    top: 50%;
+    left: 90%;
+    flex-direction: column;
+    &__ul {
+      width: 50px;
+      height: 50px;
+      font-size: 2rem;
+    }
+    .left-ul,
+    .right-ul,
+    .center-ul {
+      &:hover,
+      &:focus {
+        box-shadow: none;
+      }
+    }
   }
+section{
+  height: 100%;
 }
-  }
   //hero
   .main-hero {
-
     flex-direction: column-reverse;
     background-size: cover;
-   background: url(https://i.pinimg.com/originals/2b/17/90/2b1790a454afdb18da1ac7c459330b05.gif);
+    background: url(https://i.pinimg.com/originals/2b/17/90/2b1790a454afdb18da1ac7c459330b05.gif);
     background-repeat: no-repeat;
     &__text {
       h3 {
@@ -92,7 +97,6 @@ flex-direction: column;
     &__info {
       padding: 0 0.2em;
       font-size: 1.6rem;
-
     }
   }
   .main-contact {
@@ -101,49 +105,49 @@ flex-direction: column;
     &__main {
       flex-direction: column;
       margin-top: 10vh;
-      &__img{
+      &__img {
         width: 100%;
-        .design{
-         width: 100px;
-         height: 100px;
-         background-color: rgba(255, 255, 255, 0.354);
+        .design {
+          width: 100px;
+          height: 100px;
+          background-color: rgba(255, 255, 255, 0.354);
         }
-        .design-1{
+        .design-1 {
           top: -50px;
           left: -50px;
         }
-        .design-2{
+        .design-2 {
           bottom: -50px;
           left: -50px;
         }
-        .design-3{
+        .design-3 {
           display: block;
           top: -50px;
           right: -50px;
         }
-        .design-4{
+        .design-4 {
           display: block;
           bottom: -50px;
           right: -50px;
         }
-        h3{
+        h3 {
           font-size: 3.5rem;
         }
-    a{
-      font-size: 1.5rem;
-    }
-&_items{
-  &__flex{
-      font-size: 1.8rem;
-  }
-}
+        a {
+          font-size: 1.5rem;
+        }
+        &_items {
+          &__flex {
+            font-size: 1.8rem;
+          }
+        }
       }
     }
   }
   .form {
     width: 100vw;
-display: grid;
-place-content: center;
+    display: grid;
+    place-content: center;
     .label-list {
       input {
         font-size: 0.9rem;
