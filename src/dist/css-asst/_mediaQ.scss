@@ -1,8 +1,10 @@
 @media screen and(max-width:750px) {
-  //header
   .section-title {
-    font-size: 3.5rem;
+    font-size: 6.5rem;
+    margin: 5vh 0;
+    font-family: $primary-ff;
   }
+  //header
   .main-header {
     top: 50%;
     left: 90%;
@@ -24,11 +26,16 @@
 
   //hero
   .main-hero {
+height: 100%;
     flex-direction: column-reverse;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     background: url(https://i.pinimg.com/originals/2b/17/90/2b1790a454afdb18da1ac7c459330b05.gif);
     background-repeat: no-repeat;
     &__text {
+      margin: 10vh 0;
       h3 {
         font-size: 3.5rem;
       }
@@ -45,27 +52,60 @@
       }
     }
     .main-hero__img {
+      margin: 5vh 0;
       &__esllipse {
+        background-position: 50% center;
+        background-size: cover 100%;
         width: 250px;
         height: 384px;
       }
     }
   }
+
   //project
   .main-project {
-    height: 190vh;
+    display: block;
+    height: 100%;
 
     &__card {
-      margin: 0;
+     margin: unset;
       flex-direction: column;
+      justify-content: space-around;
+      gap: 25px;
       &__items {
-        margin: 0.8em 0;
+        background-color: #0f252a;
+        color: white;
+        width: 350px;
+        height: 100%;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+        &__text {
+          padding: 0 0.2em;
+          &__title {
+            font-size: 2.5rem;
+            padding: 0.2em 0;
+            font-family: $primary-ff;
+            margin: 1vh 0;
+          }
+          &__info {
+            font-size: 1.8rem;
+            padding: 0.2em 0;
+            font-family: $sec-ff;
+            font-weight: 300;
+            margin: 1vh 0;
+          }
+          .btn-group {
+            margin: 1.5vh 0;
+          }
+        }
       }
     }
   }
   //skill
-
   .main-skill {
+    height: 100%;
     width: 100%;
     display: grid;
     align-items: center;
@@ -74,10 +114,8 @@
       &__list {
         margin: 0.1em 0;
         flex-direction: column;
-
         &__items {
           align-items: center;
-
           width: 300px;
           height: 110px;
           margin: 0.5em 0;
@@ -90,74 +128,61 @@
     }
   }
 
-  //about
+  //about me
   .main-about {
     &__info {
-      padding: 0 0.2em;
-      font-size: 1.6rem;
+  
+ 
+      font-size: 1.9rem;
+
+    
     }
   }
+  //contact
+
   .main-contact {
-height: 130vh;
-    overflow: hidden;
-    &__main {
-      flex-direction: column;
-      margin-top: 10vh;
-      &__img {
-        width: 100%;
-        .design {
-          width: 100px;
-          height: 100px;
-          background-color: rgba(255, 255, 255, 0.354);
-        }
-        .design-1 {
-          top: -50px;
-          left: -50px;
-        }
-        .design-2 {
-          bottom: -50px;
-          left: -50px;
-        }
-        .design-3 {
-          display: block;
-          top: -50px;
-          right: -50px;
-        }
-        .design-4 {
-          display: block;
-          bottom: -50px;
-          right: -50px;
-        }
-        h3 {
-          font-size: 3.5rem;
-        }
-        a {
-          font-size: 1.5rem;
-        }
-        &_items {
-          &__flex {
-            font-size: 1.8rem;
+    height: 100%;
+        overflow: hidden;
+        &__main {
+          flex-direction: column;
+          margin-top: 10vh;
+          &__img {
+            width: 100%;
+    
+       
+            h3 {
+              font-size: 3.5rem;
+            }
+            a {
+              font-size: 1.5rem;
+            }
+            &_items {
+              &__flex {
+                font-size: 1.8rem;
+              }
+            }
           }
         }
       }
-    }
-  }
-  .form {
-    width: 100vw;
-    display: grid;
-    place-content: center;
-    .label-list {
-      input {
-        font-size: 0.9rem;
-        width: 350px;
+      .form {
+ 
+        width: 100vw;
+        display: grid;
+        place-content: center;
+        .label-list {
+          input {
+            font-size: 0.9rem;
+            width: 350px;
+          }
+          textarea {
+            font-size: 0.9rem;
+            min-height: 40px;
+            max-height: 40px;
+            max-width: 350px;
+            width: 350px;
+            min-width: 350px;
+          }
+        }
       }
-      textarea {
-        font-size: 0.9rem;
-
-        max-width: 350px;
-        width: 350px;
-        min-width: 350px;
-      }
-    }
-  }
+    
 }

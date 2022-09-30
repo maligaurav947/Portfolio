@@ -1,13 +1,15 @@
 .main-about{
-
+ height: 100vh;
  &__info{
- @include flexalignjustify;
- flex-direction: column;
- height: 80%;
- line-height: 1.55;
- font-family: 'Caveat', cursive;
- padding: 0 2.5em;
- font-size: 3.2rem;
+  display: grid;
+  place-content: center;
+  height: 80%;
 
+  font-size: 2.6rem;
+  padding: 0 0.5em;
+   font-family: $sec-ff;
+   font-weight: 300;
+   line-height: 1.5;
+   text-align: justify;
  }
 }

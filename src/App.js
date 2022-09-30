@@ -1,3 +1,4 @@
+import { ReactDOM } from "react";
 import About from "./js-asst/About";
 import Contact from "./js-asst/Contact";
 import Header from "./js-asst/Header";
@@ -8,7 +9,7 @@ import { useState, useEffect } from "react";
 import PacmanLoader from "react-spinners/PacmanLoader";
 
 function App() {
-const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {

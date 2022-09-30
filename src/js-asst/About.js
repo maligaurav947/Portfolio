@@ -8,17 +8,7 @@ const About = () => {
   return (
     <section className="main-about" id="about">
       <h3 className="section-title">About Me</h3>
-      <p
-        className="main-about__info"
-        data-aos="fade-down"
-        data-os="fade-top"
-        data-aos-offset="100"
-        data-aos-delay="2"
-        data-aos-duration="500"
-        data-aos-easing="linear"
-        data-aos-once="false"
-        data-aos-anchor-placement="center"
-      >
+      <p className="main-about__info">
         My name is Mali Gaurav Bhausaheb I have completed my diploma in computer
         engineering and currently pursuing my BTech in computer engineering at
         Jayakumar college of engineering and technology in my BTech college
