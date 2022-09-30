@@ -1,14 +1,13 @@
 .main-contact {
- height: 100vh;
+height: 100vh;
  &__main {
    @include flexalignjustify;
-
    gap: 25px;
-
    &__img {
      box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
      height: 100%;
      width: 50%;
+     margin-top: 10vh;
      background-color: rgb(0, 0, 0);
      position: relative;
      z-index: 1;
@@ -66,6 +65,8 @@
 }
 
 .form {        
+
+  margin-top: 10vh;
   font-family: 'Caveat', cursive;
  &::selection {
    background-color: transparent;
