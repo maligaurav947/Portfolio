@@ -74,7 +74,6 @@
       gap: 25px;
       &__items {
         background-color: #0f252a;
-        color: white;
         width: 350px;
         height: 100%;
         img {
@@ -83,20 +82,24 @@
         }
         &__text {
           padding: 0 0.2em;
+   
           &__title {
             font-size: 2.5rem;
             padding: 0.2em 0;
             font-family: $primary-ff;
             margin: 1vh 0;
+            color: white;
           }
           &__info {
+            color: white;
             font-size: 1.8rem;
-            padding: 0.2em 0;
+            padding: 0.2em 0 0.5em 0;
             font-family: $sec-ff;
             font-weight: 300;
             margin: 1vh 0;
           }
           .btn-group {
+            color: black !important;
             margin: 1.5vh 0;
           }
         }

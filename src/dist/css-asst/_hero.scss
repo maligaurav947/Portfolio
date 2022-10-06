@@ -1,46 +1,49 @@
 .main-hero {
   height: 100vh;
-display: flex;
-align-items: center;
-justify-content: space-around;
-background: url(https://i.pinimg.com/originals/1a/71/58/1a7158689e5ce37e5d78d97c332a003f.gif);
-background-position: center;
-background-repeat: no-repeat;
-background-size: 100%;
-image-rendering: optimizeQuality;
-background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: url(https://i.pinimg.com/originals/1a/71/58/1a7158689e5ce37e5d78d97c332a003f.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  image-rendering: optimizeQuality;
+  background-attachment: fixed;
   &__text {
-
-   &__subtitle{
-    font-size: 5rem;
-    font-family: $sec-ff;
-    &::selection{
-      background: transparent;
-     }
-   }
+    &__subtitle {
+      font-size: 5rem;
+      font-family: $sec-ff;
+      &::selection {
+        background: transparent;
+      }
+    }
     &__maintitle {
       font-size: 12.5rem;
-     font-family: $primary-ff;
+      font-family: $primary-ff;
       color: #444444;
- 
-      text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
-    
-      &::selection{
+
+      text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc,
+        1px 2px 1px #eeeeee, 3px 2px 1px #cccccc, 2px 3px 1px #eeeeee,
+        4px 3px 1px #cccccc, 3px 4px 1px #eeeeee, 5px 4px 1px #cccccc,
+        4px 5px 1px #eeeeee, 6px 5px 1px #cccccc, 5px 6px 1px #eeeeee,
+        7px 6px 1px #cccccc;
+
+      &::selection {
         background: transparent;
-       }
+      }
     }
-    &__icon{
-     text-align: end;
-     font-size: 3.5rem;
-     outline: none;
-     a{
-      cursor: pointer;
-      color: white;
+    &__icon {
+      text-align: end;
+      font-size: 3.5rem;
       outline: none;
-     }
-     svg{
-      margin: 0.5em 0.2em 0;
-     }
+      a {
+        cursor: pointer;
+        color: white;
+        outline: none;
+      }
+      svg {
+        margin: 0.5em 0.2em 0;
+      }
     }
   }
 
@@ -49,17 +52,19 @@ background-attachment: fixed;
       width: 400px;
       height: 550px;
       background: url(https://cdn.vectorstock.com/i/1000x1000/69/63/gamer-guy-playing-online-game-on-computer-at-home-vector-32326963.webp)
-      no-repeat;
-      
+        no-repeat;
+
       background-position: center 10%;
-     background-size: cover 100%;
+      background-size: cover 100%;
 
       border-radius: 50% 50% 50% 50% / 67% 67% 33% 33%;
       transition: 400ms all ease-in-out;
       box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
-      &:hover{
-        box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
-}
+      &:hover {
+        box-shadow: rgba(240, 46, 170, 0.4) 0px 5px,
+          rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px,
+          rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+      }
     }
   }
 }

@@ -2,6 +2,7 @@
   height: 100vh;
   display: grid;
   justify-content: space-evenly;
+
   &__card {
     display: flex;
     align-items: center;
@@ -9,12 +10,13 @@
     margin-top: -35vh;
 
     &__items {
-      background-color: #50ac97;
+      background-color: $sec-bg-color;
       margin: 0 0.5em;
       text-align: justify;
       width: 370px;
       height: 470px;
       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
       img {
         width: 370px;
         height: 270px;
@@ -22,41 +24,51 @@
         image-rendering: auto;
         object-position: top;
         opacity: 1;
+
         &::selection {
           background: transparent;
         }
       }
+
       &__text {
         position: relative;
+        color: black !important;
+        height: 200px;
 
         &__title {
-          padding: 0.3em 0;
           text-align: center;
-          font-size: 3.5rem;
-
+          font-size: 3.2rem;
+          font-family: $primary-ff;
+padding: 0.1em 0 0.3em 0;
+font-weight: 400;
           &::selection {
             background: white;
             color: black;
           }
         }
+
         &__info {
           padding: 0 0.4em;
-          font-size: 1.2rem;
+          font-size: 1.5rem;
           line-height: 1.3;
-
+          font-family: $sec-ff;
+font-weight: 400;
           &::selection {
             background: white;
             color: black;
           }
         }
+
         .btn-group {
+          left: 5px;
+          bottom: 10px;
+          position: absolute;
+          display: flex;
+          align-items: center;
+          gap: 25px;
+          color: black !important;
         }
       }
     }
   }
-}
-.btn-group {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
