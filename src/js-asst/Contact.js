@@ -76,7 +76,7 @@ export default class Contact extends Component {
                 <textarea name="message"></textarea>
               </label>
               <br />
-              <button class="button-86" role="button">
+              <button class="button-81" role="button">
                 Send
               </button>
             </form>

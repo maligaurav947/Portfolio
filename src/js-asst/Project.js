@@ -1,9 +1,9 @@
 import React, { Component, useEffect } from "react";
 
 import "aos/dist/aos.css";
-import Projectitems from "./Projectitems";
+import Projectitems from "./asst/Projectitems";
 
-export default function Project(props) {
+export default function Project() {
   return (
     <section className="main-project" id="project">
       <h3 className="section-title">Project</h3>
