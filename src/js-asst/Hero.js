@@ -6,7 +6,7 @@ export default class Hero extends Component {
   render() {
     return (
       <>
-        <Toogle />{" "}
+        <Toogle />
         <section className="main-hero" id="home">
           <div className="main-hero__text">
             <h3 className="main-hero__text__subtitle">Hello My Name is</h3>

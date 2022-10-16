@@ -1,5 +1,3 @@
-import React, { Component, useEffect } from "react";
-
 import "aos/dist/aos.css";
 import Projectitems from "./asst/Projectitems";
 

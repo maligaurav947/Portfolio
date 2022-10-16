@@ -1,19 +1,17 @@
-img{
- width: 100%;
+img {
+  width: 100%;
 }
-.section-title{
+.section-title {
   font-size: 7.5rem;
- text-align: center;
- font-family: $primary-ff;
-
+  text-align: center;
+  font-family: $primary-ff;
 }
 
-a{
+a {
   color: black;
- font-family: $sec-ff;
- text-decoration: none;
+  font-family: $sec-ff;
+  text-decoration: none;
 }
-
 
 /* CSS */
 .button-81 {
@@ -24,7 +22,9 @@ a{
   color: #0d172a;
   cursor: pointer;
   display: inline-block;
-  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: "Basier circle", -apple-system, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.1rem;
   font-weight: 600;
   line-height: 1;
@@ -32,7 +32,7 @@ a{
   text-align: center;
   text-decoration: none #0d172a solid;
   text-decoration-thickness: auto;
-  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
   user-select: none;
   -webkit-user-select: none;
@@ -43,7 +43,7 @@ a{
   background-color: #1e293b;
   color: #fff !important ;
   transition: all 450ms linear;
-  a{
+  a {
     color: #fff !important ;
   }
 }
@@ -53,4 +53,25 @@ a{
     font-size: 1.125rem;
     padding: 1rem 2rem;
   }
+}
+
+.leftarrow,
+.rightarrow {
+  position: absolute;
+  padding: 0.8em;
+  z-index: 999;
+  object-fit: cover;
+  width: 50px;
+  background-color: #0d172a;
+  height: 50px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.leftarrow {
+  top: 50%;
+  left: 2.5%;
+}
+.rightarrow {
+  top: 50%;
+  right: 2.5%;
 }
