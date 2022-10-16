@@ -2,7 +2,9 @@ import React from "react";
 export default function Projectitems(props) {
   return (
     <div className="main-project__card__items">
-      <img src={props.img} alt="Toy Shop" className="skeleton" />
+      <div className="img">
+        <img src={props.img} alt={props.alt} className="skeleton" />
+      </div>
       <div className="main-project__card__items__text">
         <h4 className="main-project__card__items__text__title">
           {props.title}

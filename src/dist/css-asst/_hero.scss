@@ -20,14 +20,7 @@
     &__maintitle {
       font-size: 12.5rem;
       font-family: $primary-ff;
-      color: #444444;
-
-      text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc,
-        1px 2px 1px #eeeeee, 3px 2px 1px #cccccc, 2px 3px 1px #eeeeee,
-        4px 3px 1px #cccccc, 3px 4px 1px #eeeeee, 5px 4px 1px #cccccc,
-        4px 5px 1px #eeeeee, 6px 5px 1px #cccccc, 5px 6px 1px #eeeeee,
-        7px 6px 1px #cccccc;
-
+      color: #fff !important;
       &::selection {
         background: transparent;
       }
@@ -66,5 +59,79 @@
           rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
       }
     }
+  }
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.label {
+  width: 50px;
+  height: 26px;
+  background-color: #111;
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  transform: scale(1.5);
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+/*  target the elemenent after the label*/
+.checkbox:checked + .label .ball {
+  transform: translateX(24px);
+}
+
+.toogle {
+  top: 15px;
+  right: 15px;
+  position: absolute;
+}
+body.dark {
+  background-color: ghostwhite;
+  transition: all 450ms linear;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  label,
+  svg,
+  a {
+    color: rgb(16, 14, 14);
+  }
+  .main-hero {
+    background-color: rgba(17, 17, 17, 0.489);
+    h3 {
+      color: white !important;
+    }
+    svg {
+      color: white;
+    }
+    background-blend-mode: multiply;
+  }
+
+  input,
+  textarea {
+    border-color: rgb(16, 14, 14) !important;
+  }
+  .main-project__card__items {
+    background-color: ghostwhite;
   }
 }

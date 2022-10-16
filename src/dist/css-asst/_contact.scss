@@ -20,7 +20,7 @@ font-size: 1.8rem;
      padding: 3.5vh 0;
      h3 {
        text-align: center;
-       font-size: 7.5rem;
+       font-size: 5.5rem;
        font-family: $primary-ff;
    
        z-index: 1;
@@ -45,7 +45,7 @@ font-size: 1.8rem;
        a {
          color: white;
          margin-left: 2vh;
-         font-size: 2.1rem;
+         font-size: 2rem;
          font-family: 'Caveat', cursive;
          text-decoration: none;
          &::selection {
@@ -60,7 +60,7 @@ font-size: 1.8rem;
          gap: 20px;
 
          font-family: $sec-ff;
-         font-size: 2.6rem;
+         font-size: 2rem;
          h4 {
            border-bottom: 2px solid white;
          }
