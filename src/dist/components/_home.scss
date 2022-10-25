@@ -1,0 +1,40 @@
+.hero-section {
+  height: 90vh !important;
+  width: 100%;
+  @include flex(center);
+  gap: 25px;
+  &__text {
+    width: 50vw;
+  
+  }
+  &__img {
+    img {
+      border-radius: 15px;
+    }
+    &:hover {
+      img {
+       zoom: 1.0025;
+      }
+    }
+  }
+}
+
+.skill-main {
+  height: 100%;
+  @include grid(center);
+  h3 {
+    text-align: center;
+    margin-bottom: 5vh !important;
+  }
+
+  &__img {
+    @include grid(center);
+    height: 100%;
+    grid-template-columns: 150px 150px 150px 150px;
+    gap: 25px;
+
+    img {
+      width: 150px !important;
+    }
+  }
+}

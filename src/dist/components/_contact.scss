@@ -1,0 +1,36 @@
+.main-contact {
+  @include flex(space-around);
+  height: 80vh;
+
+  &__form {
+    display: grid;
+    position: relative;
+    gap: 25px;
+    div {
+      font-family: $sec-ff;
+      font-size: 2.0rem;
+    }
+    input,
+    textarea {
+      width: 450px;
+      height: 50px;
+      border: none;
+      outline: none;
+      border-bottom: 2px solid white;
+      padding: 0.5em;
+      color: white;
+      text-transform: capitalize;
+      font-family: $sec-ff;
+      font-size: 1.5rem;
+      background-color: transparent !important;
+    }
+    .main-contact__form__input__email {
+      text-transform: unset !important;
+    }
+    textarea {
+      max-width: 450px;
+      min-width: 450px;
+      height: 105px !important;
+    }
+  }
+}

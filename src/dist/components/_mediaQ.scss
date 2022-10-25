@@ -1,0 +1,112 @@
+@media screen and (max-width: 800px) {
+  section {
+    padding: 0 0.5em;
+  }
+  h3 {
+    font-size: 4.5rem !important;
+  }
+  .bg-screen {
+    display: none !important;
+  }
+  .menu {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-size: 6.5rem;
+  }
+  .hero-section {
+    flex-direction: column-reverse;
+    height: 100vh !important;
+    
+    &__text {
+      width: 100%;
+
+      p {
+        font-size: 1.7rem;
+      }
+      &__btn {
+        background-color: transparent;
+        outline: none;
+      }
+    }
+    &__img {
+      //
+    }
+  }
+
+  .header-section {
+    top: 0px;
+    background-color: $primary-bg-color !important;
+    right: 0px;
+    position: fixed;
+    &__nav {
+      width: 100vw;
+      height: 80vh;
+      display: inline-flex;
+      background-color: black;
+      flex-direction: column;
+      gap: 80px;
+      &__list {
+      }
+    }
+  }
+
+  .skill-main {
+    height: 60vh;
+
+    &__img {
+      grid-template-columns: 100px 100px 100px;
+      gap: 10px;
+      height: auto;
+      img {
+        width: 100px !important;
+      }
+    }
+  }
+
+  .about-section {
+    height: 110vh;
+    flex-direction: column;
+    &__img {
+      img {
+        width: 100%;
+      }
+    }
+    &__text {
+      width: 100%;
+      text-align: justify;
+      padding: 0 0.6em;
+      h3 {
+        font-size: 5.6rem !important;
+        margin: 2vh 0;
+      }
+      p {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+
+  .main-contact {
+    flex-direction: column;
+    &__img {
+      width: 100% !important;
+    }
+    &__form {
+      display: grid;
+      position: relative;
+      gap: 25px;
+
+      input,
+      textarea {
+        width: 350px;
+      }
+
+      textarea {
+        max-width: 350px;
+        min-width: 350px;
+      }
+    }
+  }
+}

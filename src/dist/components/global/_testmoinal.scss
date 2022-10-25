@@ -1,0 +1,63 @@
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+li {
+  color: currentColor;
+  list-style-type: none;
+}
+img{
+  object-fit: contain;
+  width: 100%;
+}
+.capitalize {
+  text-transform: capitalize !important;
+}
+.section-title {
+  font-size: 9rem;
+  font-family: $primary-ff !important;
+}
+.section-info {
+  font-family: $sec-ff;
+  font-size: 2.5rem;
+
+}
+.design-text {
+  text-align: center;
+  background: linear-gradient(
+    135deg,
+    #5335cf 0%,
+    #de005e 25%,
+    #f66e48 50%,
+    #de005e 75%,
+    #5335cf 100%
+  );
+  background-size: 200% auto;
+  color: $primary-text-color;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 2s linear infinite;
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+}
+
+.bg-screen{
+  display: flex ;
+}
+.menu{
+  display: none;
+}
+.hero-section__text__btn {
+  border-bottom: 1px solid white;
+  margin-top: 2.5vh;
+  font-size: 1.9rem;
+  color: currentColor;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

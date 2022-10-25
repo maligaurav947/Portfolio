@@ -1,33 +1,17 @@
-@import "./dist/css-asst/global/variable";
-@import "./dist/css-asst/global/importlink";
-@import "./dist/css-asst/global/mixin";
-@import "./dist/css-asst/global/testimonial";
-@import "./dist/css-asst/global/reset";
-@import 'dist/css-asst/header';
-@import "./dist/css-asst/hero";
-@import "./dist/css-asst/projects";
-@import "./dist/css-asst/skillList";
-@import "./dist/css-asst/about";
-@import "./dist/css-asst/contact";
-@import "./dist/css-asst/mediaQ";
 
-.main-working{
- height: 100vh;
- width: 100vw;
- display: grid;
- text-align: center;
- place-content: center;
- font-family: 'Caveat', cursive;
- img{
-width: 100%;
- }
- h1{
-  margin: 2.5vh 0;
-  font-size: 3.5rem;
- }
- P{
-  font-size: 2rem;
- }
-}
+//Styling The Global Components
+@import "./dist/components/global/variable";
+@import "./dist/components/global/reset";
+@import "./dist/components/global/import";
+@import "./dist/components/global/mixin";
+@import "./dist/components/global/testmoinal";
 
-@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+// Styling The Pages
+@import "./dist/components/header";
+@import "./dist/components/home";
+@import "./dist/components/about";
+@import "./dist/components/project";
+@import "./dist/components/contact";
+@import "./dist/components/footer";
+@import "./dist/components/mediaQ";

@@ -1,0 +1,16 @@
+.header-section {
+  height: 10vh;
+  position: sticky;
+  top: 0px;
+  background-color: #10101a95;
+  @include grid(center);
+  z-index: 9;
+  &__nav {
+    @include flex(center);
+    gap: 25px;
+    &__list {
+      font-size: 1.8rem;
+      font-family: $sec-ff;
+    }
+  }
+}
