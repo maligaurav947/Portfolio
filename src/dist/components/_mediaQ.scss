@@ -18,7 +18,7 @@
   .hero-section {
     flex-direction: column-reverse;
     height: 100vh !important;
-    
+
     &__text {
       width: 100%;
 
@@ -87,7 +87,21 @@
     }
   }
 
-
+  .project-section {
+    margin: 8vh 0;
+    h3 {
+      text-align: center;
+    }
+    &__main {
+      grid-template-columns: auto;
+      gap: 45px;
+      &__card {
+        height: 520px;
+        &__text {
+        }
+      }
+    }
+  }
   .main-contact {
     flex-direction: column;
     &__img {

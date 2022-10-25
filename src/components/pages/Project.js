@@ -18,7 +18,7 @@ function Project() {
                   {data.title}
                 </h4>
                 <p className="section-info">{data.info}</p>
-                <a href={data.link}>
+                <a href={data.link} target={"_blank"}>
                   <p className="project-section__main__card__text__btn">
                     &lt;Vist Website /&gt;
                   </p>
