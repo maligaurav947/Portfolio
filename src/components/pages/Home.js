@@ -1,9 +1,11 @@
 import React from "react";
 import { BubblyLink } from "react-bubbly-transitions";
 import Skill from "./Extra/Skill";
+import Header from "./Header";
 function Home() {
   return (
     <>
+      <Header />
       <section className="hero-section">
         <main className="hero-section__text">
           <h3 className="section-title hero-section__text__title">

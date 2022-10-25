@@ -1,8 +1,10 @@
 import React from "react";
+import Header from "./Header";
 
 function About() {
   return (
     <>
+      <Header />
       <section className="about-section">
         <main className="about-section__img">
           <img src="https://blush.design/api/download?shareUri=DmVD0iHRBSOOrYtb&c=Skin_0%7Eedb98a&w=800&h=800&fm=png" />

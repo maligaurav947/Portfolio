@@ -1,4 +1,5 @@
 import { useForm, ValidationError } from "@formspree/react";
+import Header from "./Header";
 
 function ContactForm() {
   const [state, handleSubmit] = useForm("xknevayw");
@@ -11,6 +12,7 @@ function ContactForm() {
   }
   return (
     <>
+      <Header />
       <main className="main-contact">
         <h3 className="section-title">
           Let's <span className="design-text">Work</span> Together

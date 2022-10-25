@@ -1,5 +1,5 @@
 import React from "react";
-import { BubblyLink } from "react-bubbly-transitions";
+import { Link } from "react-router-dom";
 import { BiMenuAltRight } from "react-icons/bi";
 function Header() {
   const [show, setShow] = React.useState(false);
@@ -13,33 +13,33 @@ function Header() {
       />
       {show ? (
         <div className="header-section__nav">
-          <BubblyLink to="/">
+          <Link to="/">
             <li className="header-section__nav__list">&lt;Home /&gt;</li>
-          </BubblyLink>
-          <BubblyLink to="/about">
+          </Link>
+          <Link to="/about">
             <li className="header-section__nav__list">&lt;About Me /&gt;</li>
-          </BubblyLink>
-          <BubblyLink to="/project">
+          </Link>
+          <Link to="/project">
             <li className="header-section__nav__list">&lt;Project /&gt;</li>
-          </BubblyLink>
-          <BubblyLink to="/contact">
+          </Link>
+          <Link to="/contact">
             <li className="header-section__nav__list">&lt;Contact /&gt;</li>
-          </BubblyLink>
+          </Link>
         </div>
       ) : null}
       <div className="header-section__nav bg-screen">
-        <BubblyLink to="/">
+        <Link to="/">
           <li className="header-section__nav__list">&lt;Home /&gt;</li>
-        </BubblyLink>
-        <BubblyLink to="/about">
+        </Link>
+        <Link to="/about">
           <li className="header-section__nav__list">&lt;About Me /&gt;</li>
-        </BubblyLink>
-        <BubblyLink to="/project">
+        </Link>
+        <Link to="/project">
           <li className="header-section__nav__list">&lt;Project /&gt;</li>
-        </BubblyLink>
-        <BubblyLink to="/contact">
+        </Link>
+        <Link to="/contact">
           <li className="header-section__nav__list">&lt;Contact /&gt;</li>
-        </BubblyLink>
+        </Link>
       </div>
     </header>
   );
