@@ -94,11 +94,9 @@
     }
     &__main {
       grid-template-columns: auto;
-      gap: 45px;
+
       &__card {
-        height: 520px;
-        &__text {
-        }
+        height: 530px;
       }
     }
   }
