@@ -1,5 +1,5 @@
 import React from "react";
-import { BubblyLink } from "react-bubbly-transitions";
+import { Link } from "react-router-dom";
 import Skill from "./Extra/Skill";
 import Header from "./Header";
 function Home() {
@@ -16,11 +16,11 @@ function Home() {
             I Am Front-End Developer & UI Designer Currently Working For Recruit
             NXT As Intern / Freelancing / I Can Work With You
           </p>
-          <BubblyLink to="/contact">
+          <Link to="/resume">
             <button className="hero-section__text__btn">
-              &lt;Contact /&gt;
+              &lt;Resume /&gt;
             </button>
-          </BubblyLink>
+          </Link>
         </main>
         <main className="hero-section__img">
           <img src="https://images.unsplash.com/photo-1665567062433-7c0e7731564d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" />

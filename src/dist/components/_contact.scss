@@ -1,7 +1,6 @@
 .main-contact {
   @include flex(space-around);
   height: 80vh;
-
   &__form {
     display: grid;
     position: relative;

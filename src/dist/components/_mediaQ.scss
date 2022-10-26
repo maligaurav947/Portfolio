@@ -123,4 +123,16 @@
       }
     }
   }
+
+  .resume-section {
+    button:first-child {
+      display: none;
+    }
+    main {
+      height: 80vh;
+      width: 90%;
+
+      background-size: contain;
+    }
+  }
 }

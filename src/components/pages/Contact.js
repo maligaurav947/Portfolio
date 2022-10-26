@@ -51,6 +51,10 @@ function ContactForm() {
             </button>
           </div>
         </form>
+        <img
+          src="https://blush.design/api/download?shareUri=cXOeDysurEQy_zpu&c=Skin_0%7Efcb7a0&w=800&h=800&fm=png"
+          className="bg-hero-img"
+        />
       </main>
     </>
   );

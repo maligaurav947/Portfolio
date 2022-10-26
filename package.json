@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "@formspree/react": "^2.4.0",
+    "@pdftron/pdfjs-express": "^8.7.0",
     "@react-icons/all-files": "^4.1.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

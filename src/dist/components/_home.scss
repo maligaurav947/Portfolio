@@ -1,11 +1,11 @@
 .hero-section {
   height: 90vh !important;
   width: 100%;
+  position: relative;
   @include flex(center);
   gap: 25px;
   &__text {
     width: 50vw;
-  
   }
   &__img {
     img {
@@ -13,7 +13,7 @@
     }
     &:hover {
       img {
-       zoom: 1.0025;
+        zoom: 1.0025;
       }
     }
   }
@@ -36,5 +36,20 @@
     img {
       width: 150px !important;
     }
+  }
+}
+
+.resume-section {
+  @include flex(center);
+  flex-direction: column;
+  button{
+    margin: 5vh 0;
+  }
+  main {
+    height: 150vh;
+    width: 50%;
+    background: url(https://github.com/maligaurav947/Portfolio/blob/master/src/res/Gaurav%20Mali%20Resume.jpg?raw=true)
+      no-repeat center;
+    background-size: contain;
   }
 }

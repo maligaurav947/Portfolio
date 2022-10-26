@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  width: 0;
+}
 html {
   font-size: 62.5%;
 }
@@ -11,5 +14,13 @@ body {
   font-size: 1.6rem;
   background-color: $primary-bg-color;
   color: $primary-text-color;
-  font-family: $sec-ff; 
+  font-family: $sec-ff;
+}
+
+.bg-hero-img {
+  position: absolute;
+  width: 200px;
+  right: 0px;
+  bottom: 80px;
+  transform: rotate(180deg);
 }
