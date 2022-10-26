@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "./Header";
 import data from "./Extra/data";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 function Project() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  });
   return (
     <>
       <Header />
@@ -11,8 +17,8 @@ function Project() {
         </h3>
         <main className="project-section__main">
           {data.map((data) => (
-            <div className="project-section__main__card">
-              <img src={data.img} />
+            <div className="project-section__main__card" data-aos="fade-up">
+              <img src={data.img} className="skeleton" />
               <div className="project-section__main__card__text">
                 <h4 className="project-section__main__card__text__title">
                   {data.title}

@@ -2,11 +2,18 @@
   section {
     padding: 0 0.5em;
   }
+
   h3 {
     font-size: 4.5rem !important;
   }
   .bg-screen {
     display: none !important;
+  }
+  .bg-img{
+    position: absolute;
+    width: 190px;
+    top: 130px;
+    left: 30%;
   }
   .menu {
     display: block;

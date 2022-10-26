@@ -8,6 +8,8 @@
     width: 50vw;
   }
   &__img {
+    border-radius: 15px;
+
     img {
       border-radius: 15px;
     }
@@ -30,11 +32,10 @@
   &__img {
     @include grid(center);
     height: 100%;
-    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-columns:  200px 200px  200px 200px;
     gap: 25px;
-
-    img {
-      width: 150px !important;
+    .boder{
+      border-radius: 100% !important;
     }
   }
 }
@@ -42,7 +43,7 @@
 .resume-section {
   @include flex(center);
   flex-direction: column;
-  button{
+  button {
     margin: 5vh 0;
   }
   main {
