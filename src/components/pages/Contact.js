@@ -1,4 +1,5 @@
 import { useForm, ValidationError } from "@formspree/react";
+import { Link } from "react-router-dom";
 import Header from "./Header";
 
 function ContactForm() {
@@ -6,7 +7,11 @@ function ContactForm() {
   if (state.succeeded) {
     return (
       <div className="after-submit">
-        <p>Thanks for joining!</p>
+        <h4>Thanks for joining!</h4>
+        <p>We Will Join As Soon As Possible</p>
+        <Link to="/">
+          <li className="header-section__nav__list">&lt;Home /&gt;</li>
+        </Link>
       </div>
     );
   }

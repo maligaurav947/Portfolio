@@ -3,6 +3,7 @@
   width: 100%;
   position: relative;
   @include flex(center);
+  flex-direction: row-reverse;
   gap: 25px;
   &__text {
     width: 50vw;
@@ -15,7 +16,7 @@
     }
     &:hover {
       img {
-        zoom: 1.0025;
+        zoom: 1.0005;
       }
     }
   }

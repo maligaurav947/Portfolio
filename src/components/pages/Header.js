@@ -20,7 +20,7 @@ function Header() {
             <li className="header-section__nav__list">&lt;About Me /&gt;</li>
           </Link>
           <Link to="/project">
-            <li className="header-section__nav__list">&lt;Project /&gt;</li>
+            <li className="header-section__nav__list">&lt;Work /&gt;</li>
           </Link>
           <Link to="/contact">
             <li className="header-section__nav__list">&lt;Contact /&gt;</li>
@@ -32,13 +32,13 @@ function Header() {
           <li className="header-section__nav__list">&lt;Home /&gt;</li>
         </Link>
         <Link to="/about">
-          <li className="header-section__nav__list">&lt;About Me /&gt;</li>
+          <li className="header-section__nav__list">&lt;Know Me More/&gt;</li>
         </Link>
         <Link to="/project">
-          <li className="header-section__nav__list">&lt;Project /&gt;</li>
+          <li className="header-section__nav__list">&lt;Work /&gt;</li>
         </Link>
         <Link to="/contact">
-          <li className="header-section__nav__list">&lt;Contact /&gt;</li>
+          <li className="header-section__nav__list">&lt;Let Talk /&gt;</li>
         </Link>
       </div>
     </header>

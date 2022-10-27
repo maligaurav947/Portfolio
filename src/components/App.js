@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Project from "./pages/Project";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
+import ErrorPage from "./pages/Extra/ErrorPage";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/project" element={<Project />} />
         <Route path="/resume" element={<Resume />} />
-        <Route path="*" element={<>No Match</>} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </HashRouter>
   );

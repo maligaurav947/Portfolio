@@ -14,7 +14,7 @@ function Home() {
       <Header />
 
       <section className="hero-section">
-        <main className="hero-section__text" data-aos="fade-right">
+        <main className="hero-section__text" data-aos="fade-left">
           <h3 className="section-title hero-section__text__title">
             I Can Turn Your Life in{" "}
             <span className="design-text">Web Page</span>
@@ -29,11 +29,8 @@ function Home() {
             </button>
           </Link>
         </main>
-        <main className="hero-section__img " data-aos="fade-left">
-          <img
-            src="https://images.unsplash.com/photo-1665567062433-7c0e7731564d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
-            className="skeleton"
-          />
+        <main className="hero-section__img " data-aos="fade-right">
+          <img src="https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47r4xjyhu51dvyrg3gy1636g3slksdiy51tlsaz3zr&rid=giphy.gif&ct=g" />
         </main>
       </section>
       <Skill />
