@@ -4,6 +4,7 @@ import Skill from "./Extra/Skill";
 import Header from "./Header";
 import Aos from "aos";
 import "aos/dist/aos.css";
+
 function Home() {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -11,6 +12,7 @@ function Home() {
   return (
     <>
       <Header />
+
       <section className="hero-section">
         <main className="hero-section__text" data-aos="fade-right">
           <h3 className="section-title hero-section__text__title">

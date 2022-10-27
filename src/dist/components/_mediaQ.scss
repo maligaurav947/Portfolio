@@ -1,4 +1,9 @@
-@media screen and (max-width: 800px) {
+
+@media only screen 
+  and (max-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) 
+ and (max-width: 800px){
   section {
     padding: 0 0.5em;
   }
@@ -77,11 +82,11 @@
     flex-direction: column;
     &__img {
       img {
-        width: 100%;
+        width: 100% !important;
       }
     }
     &__text {
-      width: 100%;
+      width: 100% !important;
       text-align: justify;
       padding: 0 0.6em;
       h3 {
@@ -140,4 +145,5 @@
       background-size: contain;
     }
   }
+
 }
