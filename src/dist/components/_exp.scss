@@ -1,0 +1,53 @@
+.exp-section {
+  margin-top: 5vh;
+  height: 120vh;
+  width: 100%;
+
+  @include grid(center);
+  h3 {
+    text-align: center;
+  }
+  main {
+    .Present {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      p {
+        color: #777;
+      }
+    }
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    &:nth-child(3) {
+      flex-direction: row-reverse;
+    }
+    img {
+      width: 30vw;
+      border-radius: 15px;
+    }
+    div {
+      width: 50vw;
+      .job-postion {
+        font-family: $primary-ff;
+        font-size: 5.6rem;
+      }
+      .company-name {
+        font-size: 2.1rem;
+      }
+      .my-role {
+        font-family: $sec-ff;
+        font-size: 1.7rem;
+        p {
+          font-size: 2.2rem;
+        }
+        font-weight:200;
+        li {
+          font-family: $sec-ff;
+          list-style-type: decimal-leading-zero;
+        }
+      }
+    }
+  }
+}

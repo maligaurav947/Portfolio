@@ -1,9 +1,4 @@
-
-@media only screen 
-  and (max-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) 
- and (max-width: 800px){
+@media only screen and (max-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (max-width: 800px) {
   section {
     padding: 0 0.5em;
   }
@@ -11,15 +6,18 @@
   h3 {
     font-size: 4.5rem !important;
   }
+
   .bg-screen {
     display: none !important;
   }
-  .bg-img{
+
+  .bg-img {
     position: absolute;
     width: 190px;
     top: 130px;
     left: 30%;
   }
+
   .menu {
     display: block;
     position: fixed;
@@ -27,6 +25,7 @@
     right: 0;
     font-size: 6.5rem;
   }
+
   .hero-section {
     flex-direction: column-reverse;
     height: 100vh !important;
@@ -37,11 +36,13 @@
       p {
         font-size: 1.7rem;
       }
+
       &__btn {
         background-color: transparent;
         outline: none;
       }
     }
+
     &__img {
       //
     }
@@ -52,6 +53,7 @@
     background-color: $primary-bg-color !important;
     right: 0px;
     position: fixed;
+
     &__nav {
       width: 100vw;
       height: 80vh;
@@ -59,8 +61,8 @@
       background-color: black;
       flex-direction: column;
       gap: 80px;
-      &__list {
-      }
+
+      &__list {}
     }
   }
 
@@ -71,6 +73,7 @@
       grid-template-columns: 100px 100px 100px;
       gap: 10px;
       height: auto;
+
       img {
         width: 100px !important;
       }
@@ -80,19 +83,23 @@
   .about-section {
     height: 110vh;
     flex-direction: column;
+
     &__img {
       img {
         width: 100% !important;
       }
     }
+
     &__text {
       width: 100% !important;
       text-align: justify;
       padding: 0 0.6em;
+
       h3 {
         font-size: 5.6rem !important;
         margin: 2vh 0;
       }
+
       p {
         font-size: 1.5rem;
       }
@@ -101,9 +108,11 @@
 
   .project-section {
     margin: 8vh 0;
+
     h3 {
       text-align: center;
     }
+
     &__main {
       grid-template-columns: auto;
 
@@ -112,11 +121,14 @@
       }
     }
   }
+
   .main-contact {
     flex-direction: column;
+
     &__img {
       width: 100% !important;
     }
+
     &__form {
       display: grid;
       position: relative;
@@ -138,6 +150,7 @@
     button:first-child {
       display: none;
     }
+
     main {
       height: 80vh;
       width: 90%;
@@ -145,15 +158,82 @@
       background-size: contain;
     }
   }
-  .after-submit{
+
+  .after-submit {
     h4 {
       font-size: 5.6rem;
     }
-    p{
+
+    p {
       font-size: 4.5rem;
     }
   }
-.footer-content{
-  flex-direction: column;
-}
+
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .exp-section {
+
+    height: 150vh;
+
+
+    @include grid(center);
+
+    h3 {
+      text-align: center;
+    }
+
+    main {
+      .Present {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        p {
+          color: #777;
+        }
+      }
+
+      display: flex;
+      flex-direction: column-reverse !important;
+
+      img {
+        width: 100%;
+        border-radius: 15px;
+      }
+
+      div {
+        width: 100%;
+
+        .job-postion {
+          font-family: $primary-ff;
+          font-size: 3.6rem;
+        }
+
+        .company-name {
+          font-size: 1.7rem;
+        }
+
+        .my-role {
+          font-family: $sec-ff;
+          font-size: 1.3rem;
+          text-align: justify;
+
+          p {
+            font-size: 2.2rem;
+
+          }
+
+          font-weight:200;
+
+          li {
+            font-family: $sec-ff;
+            list-style-type: decimal-leading-zero;
+          }
+        }
+      }
+    }
+  }
+
 }
