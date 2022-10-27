@@ -4,6 +4,7 @@ import Skill from "./Extra/Skill";
 import Header from "./Header";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Footer from "./Footer";
 
 function Home() {
   useEffect(() => {
@@ -34,6 +35,7 @@ function Home() {
         </main>
       </section>
       <Skill />
+      <Footer />
     </>
   );
 }

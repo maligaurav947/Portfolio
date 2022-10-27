@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Header from "./Header";
+import Footer from "./Footer";
 import data from "./Extra/data";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -34,6 +35,7 @@ function Project() {
           ))}
         </main>
       </section>
+      <Footer />
     </>
   );
 }
