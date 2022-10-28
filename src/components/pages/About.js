@@ -6,9 +6,7 @@ function About() {
     <>
       <Header />
       <section className="about-section">
-        <main className="about-section__img">
-          <img src="https://blush.design/api/download?shareUri=DmVD0iHRBSOOrYtb&c=Skin_0%7Eedb98a&w=800&h=800&fm=png" />
-        </main>
+        <main className="about-section__img"></main>
         <main className="about-section__text">
           <h3 className="section-title">Mali Gaurav</h3>
           <p className="section-info">
