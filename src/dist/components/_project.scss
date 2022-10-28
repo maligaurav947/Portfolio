@@ -3,7 +3,7 @@
   gap: 25px;
   &__main {
     @include grid(center);
-    grid-template-columns: 660px 660px ;
+    grid-template-columns: 660px 660px;
     gap: 25px;
     font-family: $sec-ff;
     &__card {
@@ -11,8 +11,8 @@
       height: 500px;
       position: relative;
 
-      &:hover{
-        img{
+      &:hover {
+        img {
           transition: opacity 450ms ease-in-out;
           opacity: 1;
         }
@@ -22,7 +22,7 @@
         object-fit: cover;
         height: 300px;
         border-radius: 20px;
-        opacity: .7;
+        opacity: 0.7;
       }
       &__text {
         @include grid(0);
@@ -36,7 +36,7 @@
         }
         a {
           position: absolute;
-          bottom: 10px;
+          bottom: 50px;
           p {
             font-size: 1.9rem;
             font-weight: 600;
