@@ -84,9 +84,9 @@
     flex-direction: column;
 
     &__img {
-      img {
-        width: 100% !important;
-      }
+      width: 100% !important;
+     animation: none;
+     height: 45vh;
     }
 
     &__text {
