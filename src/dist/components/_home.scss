@@ -7,6 +7,9 @@
   gap: 25px;
   &__text {
     width: 50vw;
+    p {
+      line-height: 30px;
+    }
   }
   &__img {
     border-radius: 15px;
@@ -33,9 +36,9 @@
   &__img {
     @include grid(center);
     height: 100%;
-    grid-template-columns:  200px 200px  200px 200px;
+    grid-template-columns: 200px 200px 200px 200px;
     gap: 25px;
-    .boder{
+    .boder {
       border-radius: 100% !important;
     }
   }
@@ -54,6 +57,4 @@
       no-repeat center;
     background-size: contain;
   }
-
 }
-

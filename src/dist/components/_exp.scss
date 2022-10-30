@@ -40,10 +40,13 @@
         font-family: $sec-ff;
         font-size: 1.7rem;
         p {
-          font-size: 2.2rem;
+    
+          font-size: 2.1rem;
         }
         font-weight:200;
-        li {
+        line-height: 25px;
+        li {   
+          line-height: 30px;
           font-family: $sec-ff;
           list-style-type: decimal-leading-zero;
         }
