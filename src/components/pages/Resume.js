@@ -6,9 +6,17 @@ function Resume() {
     <>
       <Header />
       <section className="resume-section">
-        <button className="hero-section__text__btn">&lt;Download /&gt;</button>
+        <a href="https://drive.google.com/file/d/1e9m6clQLvXkxqS5r3nFDfDFy8JA4TY27/view">
+          <button className="hero-section__text__btn">
+            &lt;Download /&gt;
+          </button>
+        </a>
         <main></main>
-        <button className="hero-section__text__btn">&lt;Download /&gt;</button>
+        <a href="https://drive.google.com/file/d/1e9m6clQLvXkxqS5r3nFDfDFy8JA4TY27/view">
+          <button className="hero-section__text__btn">
+            &lt;Download /&gt;
+          </button>
+        </a>
       </section>
     </>
   );
