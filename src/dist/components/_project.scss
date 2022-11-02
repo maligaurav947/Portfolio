@@ -1,6 +1,6 @@
 .project-section {
   @include grid(center);
-  gap: 25px;
+  gap: 100px;
   background-color: $primary-bg-color;
   color: $primary-text-color;
   &__main {
@@ -33,8 +33,9 @@
           font-size: 3.4rem;
         }
         p {
-          font-weight: 400;
-          font-size: 1.4rem;
+          font-weight: 300;
+          line-height: 29px;
+          font-size: 1.99rem;
         }
         a {
           position: absolute;

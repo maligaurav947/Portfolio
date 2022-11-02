@@ -24,20 +24,21 @@ const Skill = () => {
             src="https://sass-lang.com/assets/img/styleguide/seal-color-aef0354c.png"
             data-aos="fade-right"
           />
+
           <img
             src="https://miro.medium.com/max/1200/1*yUNfohs9jA6GCDmyCYJTvA@2x.png"
             className="boder"
             data-aos="fade-right"
           />
-
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/539px-React-icon.svg.png"
-            data-aos="fade-left"
-          />
           <img
             src="https://ionicframework.com/docs/icons/logo-react-icon.png"
             data-aos="fade-left"
           />
+          <img
+            src="https://www.svgrepo.com/show/332084/github.svg"
+            data-aos="fade-left"
+          />
+
           <img
             src="https://media.tproger.ru/uploads/2021/02/git-cover-icon-original.png"
             data-aos="fade-left"
