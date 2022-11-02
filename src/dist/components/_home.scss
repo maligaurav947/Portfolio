@@ -1,5 +1,7 @@
 .hero-section {
+background-color: $primary-bg-color !important;
   height: 90vh !important;
+  color: $primary-text-color !important;
   width: 100%;
   position: relative;
   @include flex(center);
@@ -27,6 +29,8 @@
 
 .skill-main {
   height: 100%;
+  background-color: #FFFFFF;
+  color:black;
   @include grid(center);
   h3 {
     text-align: center;
@@ -57,4 +61,25 @@
       no-repeat center;
     background-size: contain;
   }
+}
+
+
+.custom-shape-divider-bottom-1667364436 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1667364436 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 76px;
+}
+
+.custom-shape-divider-bottom-1667364436 .shape-fill {
+  fill: #FFFFFF;
 }

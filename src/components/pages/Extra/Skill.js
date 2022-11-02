@@ -35,7 +35,7 @@ const Skill = () => {
             data-aos="fade-left"
           />
           <img
-            src="https://pnggrid.com/wp-content/uploads/2022/03/Github-Logo-White.png"
+            src="https://ionicframework.com/docs/icons/logo-react-icon.png"
             data-aos="fade-left"
           />
           <img

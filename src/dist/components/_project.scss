@@ -1,6 +1,8 @@
 .project-section {
   @include grid(center);
   gap: 25px;
+  background-color: $primary-bg-color;
+  color: $primary-text-color;
   &__main {
     @include grid(center);
     grid-template-columns: 660px 660px;

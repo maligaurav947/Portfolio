@@ -1,8 +1,9 @@
 .exp-section {
-  margin-top: 5vh;
+color:black;
   height: 120vh;
+  padding: 5vh 0;
   width: 100%;
-
+  background-color: #FFFFFF;
   @include grid(center);
   h3 {
     text-align: center;

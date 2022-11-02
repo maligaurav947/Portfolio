@@ -3,7 +3,8 @@
   overflow: unset !important;
   position: sticky;
   top: 0px;
-  background-color: #10101a95;
+background-color: $primary-bg-color;
+color: $primary-text-color;
   @include grid(center);
   z-index: 9;
   &__nav {
