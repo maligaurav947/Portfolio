@@ -42,9 +42,6 @@
         outline: none;
       }
     }
-
-
-  
   }
 
   .header-section {
@@ -60,8 +57,6 @@
       background-color: black;
       flex-direction: column;
       gap: 80px;
-
-    
     }
   }
 
@@ -85,8 +80,8 @@
 
     &__img {
       width: 100% !important;
-     animation: none;
-     height: 45vh;
+      animation: none;
+      height: 45vh;
     }
 
     &__text {
@@ -121,6 +116,10 @@
     }
   }
 
+  .project-section__main__card__text p{
+    line-height: 9px;
+    font-size: 12rem;
+  }
   .main-contact {
     flex-direction: column;
 
@@ -173,9 +172,7 @@
   }
 
   .exp-section {
-
     height: 150vh;
-
 
     @include grid(center);
 
@@ -221,10 +218,9 @@
 
           p {
             font-size: 2.2rem;
-
           }
 
-          font-weight:200;
+          font-weight: 200;
 
           li {
             font-family: $sec-ff;
@@ -234,5 +230,4 @@
       }
     }
   }
-
 }

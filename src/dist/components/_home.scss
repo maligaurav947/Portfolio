@@ -62,7 +62,8 @@ background-color: $primary-bg-color !important;
     background-size: contain;
   }
 }
-.custom-shape-divider-bottom-1667369460 {
+
+.custom-shape-divider-bottom-1667703405 {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -72,14 +73,13 @@ background-color: $primary-bg-color !important;
   transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1667369460 svg {
+.custom-shape-divider-bottom-1667703405 svg {
   position: relative;
   display: block;
-  width: calc(100% + 1.3px);
-  height: 70px;
-  transform: rotateY(180deg);
+  width: calc(199% + 1.3px);
+  height: 161px;
 }
 
-.custom-shape-divider-bottom-1667369460 .shape-fill {
+.custom-shape-divider-bottom-1667703405 .shape-fill {
   fill: #FFFFFF;
 }
