@@ -35,8 +35,9 @@ const Skill = () => {
             data-aos="fade-left"
           />
           <img
-            src="https://www.svgrepo.com/show/332084/github.svg"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0JyI2WbMNxsm9UwaK38g1_jg4YxazIM9P-Jvt-sjG4U32BtJFU63lF7CePLrZHMzGqhw&usqp=CAU"
             data-aos="fade-left"
+            style={{ borderRadius: "100%" }}
           />
 
           <img

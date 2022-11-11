@@ -1,5 +1,5 @@
 .hero-section {
-background-color: $primary-bg-color !important;
+  background-color: $primary-bg-color !important;
   height: 90vh !important;
   color: $primary-text-color !important;
   width: 100%;
@@ -29,8 +29,8 @@ background-color: $primary-bg-color !important;
 
 .skill-main {
   height: 100%;
-  background-color: #FFFFFF;
-  color:black;
+  background-color: #ffffff;
+  color: black;
   @include grid(center);
   h3 {
     text-align: center;
@@ -62,8 +62,7 @@ background-color: $primary-bg-color !important;
     background-size: contain;
   }
 }
-
-.custom-shape-divider-bottom-1667703405 {
+.custom-shape-divider-bottom-1668168956 {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -73,13 +72,13 @@ background-color: $primary-bg-color !important;
   transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1667703405 svg {
+.custom-shape-divider-bottom-1668168956 svg {
   position: relative;
   display: block;
-  width: calc(199% + 1.3px);
-  height: 161px;
+  width: calc(145% + 1.3px);
+  height: 126px;
 }
 
-.custom-shape-divider-bottom-1667703405 .shape-fill {
-  fill: #FFFFFF;
+.custom-shape-divider-bottom-1668168956 .shape-fill {
+  fill: #ffffff;
 }

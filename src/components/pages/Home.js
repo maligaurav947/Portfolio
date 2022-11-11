@@ -16,7 +16,7 @@ function Home() {
       <Header />
 
       <section className="hero-section">
-        <div class="custom-shape-divider-bottom-1667703405">
+        <div class="custom-shape-divider-bottom-1668168956">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
