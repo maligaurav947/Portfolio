@@ -1,6 +1,6 @@
 .project-section {
   @include grid(center);
-  gap: 100px;
+  gap: 25px;
   background-color: $primary-bg-color;
   color: $primary-text-color;
   &__main {
@@ -8,6 +8,7 @@
     grid-template-columns: 660px 660px;
     gap: 25px;
     font-family: $sec-ff;
+    overflow: hidden;
     &__card {
       width: 100%;
       height: 500px;
