@@ -4,11 +4,11 @@
   &__img {
     width: 35vw;
     height: 80vh;
-    background: url(https://github.com/maligaurav947/Portfolio/blob/master/src/res/WhatsApp%20Image%202022-10-28%20at%2010.48.51%20PM.jpeg?raw=true)
+    background: url(https://github.com/maligaurav947/Portfolio/blob/master/src/res/Profile-2.jpeg?raw=true)
       no-repeat;
-    background-position: center top;
+    background-position: center;
     background-size: cover;
-    border-radius: 15px;
+    border-radius: 100%;
     animation: img 25s infinite linear reverse;
   }
   &__text {
@@ -20,31 +20,5 @@
       line-height: 30px;
       text-align: justify;
     }
-  }
-}
-@keyframes img {
-  0% {
-    background: url(https://github.com/maligaurav947/Portfolio/blob/master/src/res/WhatsApp%20Image%202022-10-28%20at%2010.48.51%20PM.jpeg?raw=true)
-      no-repeat;
-    background-position: center top;
-    background-size: cover;
-  }
-  35% {
-    background: url(https://github.com/maligaurav947/Portfolio/blob/master/src/res/p2.jpeg?raw=true)
-      no-repeat;
-    background-position: center top;
-    background-size: cover;
-  }
-  50% {
-    background: url(https://github.com/maligaurav947/Portfolio/blob/master/src/res/p2.jpeg?raw=true)
-      no-repeat;
-    background-position: center top;
-    background-size: cover;
-  }
-  75% {
-    background: url(https://github.com/maligaurav947/Portfolio/blob/master/src/res/WhatsApp%20Image%202022-10-28%20at%2010.48.51%20PM.jpeg?raw=true)
-      no-repeat;
-    background-position: center top;
-    background-size: cover;
   }
 }
