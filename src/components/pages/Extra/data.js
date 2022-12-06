@@ -1,5 +1,11 @@
 const data = [
   {
+    img: "https://raw.githubusercontent.com/maligaurav947/Portfolio/744ae5f79bbe0623dc67fbb63a2afb5db32eed2d/src/res/Student.png",
+    title: "Student Details System",
+    info: "BTECH Finally Year Project Content Firebase DATABASE React.js",
+    link: "https://maligaurav947.github.io/student-details/",
+  },
+  {
     img: "https://github.com/maligaurav947/Portfolio/blob/master/src/res/screencapture-maligaurav947-github-io-news-2022-11-11-09_32_37.png?raw=true",
     title: "News",
     info: "Collection of New / Breaking News Collected By News Data API",
