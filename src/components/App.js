@@ -42,6 +42,7 @@ function App() {
           ".link",
         ]}
       />
+
       <Media />
       <Home />
       <MDBContainer>

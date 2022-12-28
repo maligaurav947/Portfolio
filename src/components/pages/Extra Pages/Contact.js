@@ -10,6 +10,7 @@ function Contact() {
   return (
     <>
       <h1 className="text-center pt-5">Contact @Me</h1>
+
       <div
         id="contact"
         className="d-flex align-items-center gap-3 contact"

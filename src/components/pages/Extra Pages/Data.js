@@ -6,7 +6,7 @@ const data = [
     link: "https://maligaurav947.github.io/student-details/",
   },
   {
-    img: "https://github.com/maligaurav947/Portfolio/blob/master/src/res/screencapture-maligaurav947-github-io-news-2022-11-11-09_32_37.png?raw=true",
+    img: "../../../reso/screencapture-maligaurav947-github-io-news-2022-11-11-09_32_37.png",
     title: "News",
     info: "Collection of New / Breaking News Collected By News Data API",
     link: "https://maligaurav947.github.io/news/",
