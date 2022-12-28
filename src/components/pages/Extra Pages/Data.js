@@ -6,13 +6,13 @@ const data = [
     link: "https://maligaurav947.github.io/student-details/",
   },
   {
-    img: "../../../reso/screencapture-maligaurav947-github-io-news-2022-11-11-09_32_37.png",
+    img: "https://github.com/maligaurav947/Portfolio/blob/master/src/reso/screencapture-maligaurav947-github-io-news-2022-11-11-09_32_37.png?raw=true",
     title: "News",
     info: "Collection of New / Breaking News Collected By News Data API",
     link: "https://maligaurav947.github.io/news/",
   },
   {
-    img: "https://github.com/maligaurav947/Portfolio/blob/master/src/res/screencapture-maligaurav947-github-io-web-kit-2022-11-11-09_33_01.png?raw=true",
+    img: "https://github.com/maligaurav947/Portfolio/blob/master/src/reso/screencapture-maligaurav947-github-io-web-kit-2022-11-11-09_33_01.png?raw=true",
     title: "Web Developer Kit",
     info: "The Project Content All Type Of Tools / Kit's And Show Them One Place Just Collection Of Tools",
     link: "https://maligaurav947.github.io/web-kit/",
@@ -24,19 +24,19 @@ const data = [
     link: "https://maligaurav947.github.io/library-list-react/",
   },
   {
-    img: "https://github.com/maligaurav947/Portfolio/blob/master/src/res/toy-shop.png?raw=true",
+    img: "https://github.com/maligaurav947/Portfolio/blob/master/src/reso/toy-shop.png?raw=true",
     title: "Toy Shop",
     info: "Toy Shop Content Small Amount Of Account Mangement , Card System, Login Section",
     link: "https://maligaurav947.github.io/toy-shop/",
   },
   {
-    img: "https://github.com/maligaurav947/Portfolio/blob/master/src/res/bank-developer.png?raw=true",
+    img: "https://github.com/maligaurav947/Portfolio/blob/master/src/reso/bank-developer.png?raw=true",
     title: "Bank For Developer",
     info: "Bank For Developer Content Small Amount Of Account Mangement, Login Section. Every Special User Have There Own Dashboard",
     link: "https://maligaurav947.github.io/Bank-developer/",
   },
   {
-    img: "https://github.com/maligaurav947/Portfolio/blob/master/src/res/show-case.png?raw=true",
+    img: "https://github.com/maligaurav947/Portfolio/blob/master/src/reso/show-case.png?raw=true",
     title: "Show Case",
     info: "This Project Content My Small Project And Some Try Out Library / framework",
     link: "https://maligaurav947.github.io/ShowCase/",
