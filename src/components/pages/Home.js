@@ -1,11 +1,18 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
-import Skill from "./Extra/Skill";
-import Header from "./Header";
+import {
+  MDBCard,
+  MDBCardBody,
+  MDBCardGroup,
+  MDBCardText,
+  MDBCardTitle,
+  MDBContainer,
+  MDBIcon,
+} from "mdb-react-ui-kit";
+
+import TypeIt from "typeit-react";
+
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Footer from "./Footer";
-import Experience from "./Extra/Experience";
 
 function Home() {
   useEffect(() => {
@@ -13,44 +20,177 @@ function Home() {
   });
   return (
     <>
-      <Header />
-
-      <section className="hero-section">
-        <div class="custom-shape-divider-bottom-1668168956">
-          <svg
-            data-name="Layer 1"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 120"
-            preserveAspectRatio="none"
+      <div className="Container-home">
+        <MDBContainer>
+          <section
+            className="d-flex align-items-center  justify-content-center text-center section-home"
+            style={{
+              height: "80vh",
+            }}
           >
-            <path
-              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-              class="shape-fill"
-            ></path>
-          </svg>
+            <main className="d-grid  gap-4 align-items-center section-home__text">
+              <h1
+                style={{
+                  textTransform: "lowercase",
+                  fontSize: "3.54rem",
+                }}
+              >
+                Hello , My Name Is
+                <span
+                  style={{
+                    textTransform: "capitalize",
+                  }}
+                >
+                  <> </> Mali Gaurav
+                  <small
+                    style={{
+                      fontSize: "1.1rem",
+                      textTransform: "lowercase",
+                    }}
+                  >
+                    {/* */} (aKa.
+                    <span
+                      style={{
+                        color: "#EB5E28",
+                      }}
+                    >
+                      GABABR )
+                    </span>
+                  </small>
+                </span>
+              </h1>
+              <h3
+                style={{
+                  textTransform: "lowercase",
+                  fontSize: "2.54rem",
+                }}
+              >
+                I AM{" "}
+                <span
+                  style={{
+                    textTransform: "capitalize",
+                    color: "#EB5E28",
+                  }}
+                >
+                  <TypeIt
+                    getBeforeInit={(instance) => {
+                      instance
+                        .type("Front End Develsper")
+                        .pause(750)
+                        .delete(4)
+                        .pause(500)
+                        .type("oper")
+                        .pause(600)
+                        .type(" & UI Designer");
+                      return instance;
+                    }}
+                  />
+                </span>
+              </h3>
+
+              <div className="d-flex gap-2 flex-wrap align-items-center justify-content-center">
+                <a href="#contact">
+                  <button className="button-28 w-100" role="button">
+                    Get In Touch
+                  </button>
+                </a>
+                <a
+                  href="https://drive.google.com/file/d/1HMyaZYmb_dWDmm7zyIdviyi7CryxE2oo/view?usp=sharing"
+                  target={"_blank"}
+                >
+                  <button
+                    className="button-28 button-282 w-100 d-flex gap-3 align-items-center"
+                    role="button"
+                  >
+                    <MDBIcon fas icon="cloud-download-alt" /> Resume
+                  </button>
+                </a>
+              </div>
+            </main>
+            {/* <main className="section-home__img d-grid align-items-center justify-content-center">
+              <img
+                className="rounded mt-5"
+                src="https://images.pexels.com/photos/13915795/pexels-photo-13915795.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                
+              />
+            </main> */}
+          </section>
+        </MDBContainer>
+      </div>
+      <MDBContainer className="text-center ">
+        <h1 className="mb-5 mt-5">Here Are Some Thing A Love</h1>
+        <div data-aos="fade" data-aos-anchor-placement="top">
+          <MDBCardGroup className="d-flex align-items-center justify-content-center gap-1 p-1 bar">
+            <MDBCard
+              shadow="1"
+              border="secondary"
+              background="dark"
+              className="mb-3"
+            >
+              <MDBCardBody
+                className="d-grid gap-2"
+                style={{
+                  color: "whitesmoke",
+                }}
+              >
+                <MDBCardTitle className="d-flex gap-2 align-items-center">
+                  <MDBIcon fab icon="react" color="danger" />
+                  FrontEnd
+                </MDBCardTitle>
+                <MDBCardText className="text-start line-limit">
+                  Front end development is a style of computer programming that
+                  focuses on the coding and creation of elements and features of
+                  a website
+                </MDBCardText>
+              </MDBCardBody>
+            </MDBCard>
+            <MDBCard
+              shadow="1"
+              border="secondary"
+              background="dark"
+              className="mb-3"
+            >
+              <MDBCardBody
+                className="d-grid gap-2"
+                style={{
+                  color: "whitesmoke",
+                }}
+              >
+                <MDBCardTitle className="d-flex gap-2 align-items-center">
+                  <MDBIcon fab icon="js-square" color="warning" />
+                  JavaScript
+                </MDBCardTitle>
+                <MDBCardText className="text-start line-limit">
+                  JavaScript is the world's most popular programming language.
+                  JavaScript is the programming language of the Web. JavaScript
+                  is easy to learn.
+                </MDBCardText>
+              </MDBCardBody>
+            </MDBCard>
+            <MDBCard
+              shadow="1"
+              border="secondary"
+              background="dark"
+              className="mb-3"
+            >
+              <MDBCardBody
+                className="d-grid gap-2"
+                style={{ color: "whitesmoke" }}
+              >
+                <MDBCardTitle className="d-flex gap-2 align-items-center">
+                  <MDBIcon fas icon="code" color="primary" />
+                  Creative Coding
+                </MDBCardTitle>
+                <MDBCardText className="text-start line-limit">
+                  Creative coding is a type of computer programming in which the
+                  goal is to create something expressive instead of something
+                  functional.
+                </MDBCardText>
+              </MDBCardBody>
+            </MDBCard>
+          </MDBCardGroup>
         </div>
-        <main className="hero-section__text" data-aos="fade-left">
-          <h3 className="section-title hero-section__text__title">
-            I Can Turn Your Life in{" "}
-            <span className="design-text">Web Page</span>
-          </h3>
-          <p className="section-info hero-section__text__info">
-            I Am Front-End Developer & UI Designer Currently Working For Recruit
-            NXT As Intern / Freelancing / I Can Work With You
-          </p>
-          <Link to="/resume">
-            <button className="hero-section__text__btn">
-              &lt;Resume /&gt;
-            </button>
-          </Link>
-        </main>
-        <main className="hero-section__img " data-aos="fade-right">
-          <img src="https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47r4xjyhu51dvyrg3gy1636g3slksdiy51tlsaz3zr&rid=giphy.gif&ct=g" />
-        </main>
-      </section>
-      <Skill />
-      <Experience />
-      <Footer />
+      </MDBContainer>
     </>
   );
 }

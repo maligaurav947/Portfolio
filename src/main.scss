@@ -1,19 +1,8 @@
-
-//Styling The Global Components
 @import "./dist/components/global/variable";
+
 @import "./dist/components/global/reset";
 @import "./dist/components/global/import";
-@import "./dist/components/global/mixin";
 @import "./dist/components/global/testmoinal";
-
-
-// Styling The Pages
-@import "./dist/components/header";
 @import "./dist/components/home";
-@import "./dist/components/exp";
-@import "./dist/components/about";
-@import "./dist/components/project";
-@import "./dist/components/contact";
-@import "./dist/components/footer";
-
-@import "./dist/components/mediaQ";
+@import "./dist/components/header";
+@import "./dist/components/mediaq";

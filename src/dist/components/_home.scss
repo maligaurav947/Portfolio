@@ -1,84 +1,26 @@
-.hero-section {
-  background-color: $primary-bg-color !important;
-  height: 90vh !important;
-  color: $primary-text-color !important;
-  width: 100%;
-  position: relative;
-  @include flex(center);
-  flex-direction: row-reverse;
-  gap: 25px;
-  &__text {
-    width: 50vw;
-    p {
-      line-height: 30px;
-    }
-  }
-  &__img {
-    border-radius: 15px;
-
-    img {
-      border-radius: 15px;
-    }
-    &:hover {
-      img {
-        zoom: 1.0005;
-      }
-    }
-  }
+.project-card {
+ height: 210px;
 }
 
-.skill-main {
-  height: 100%;
-  background-color: #ffffff;
-  color: black;
-  @include grid(center);
-  h3 {
-    text-align: center;
-    margin-bottom: 5vh !important;
-  }
-
-  &__img {
-    @include grid(center);
-    height: 100%;
-    grid-template-columns: 200px 200px 200px 200px;
-    gap: 25px;
-    .boder {
-      border-radius: 100% !important;
-    }
-  }
+.Container-home {
+ background: url(https://images.pexels.com/photos/1910225/pexels-photo-1910225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center;
+ background-size: cover !important;
+ background-attachment: fixed;
+ background-color: rgba(0, 0, 0, 0.296);
+ background-blend-mode: multiply;
+ color: white;
+}
+.line-limit {
+ display: -webkit-box;
+ overflow: hidden;
+ -webkit-line-clamp: 3;
+ -webkit-box-orient: vertical;
+}
+.everysection:nth-child(odd) {
+ margin-left: 50px;
 }
 
-.resume-section {
-  @include flex(center);
-  flex-direction: column;
-  button {
-    margin: 5vh 0;
-  }
-  main {
-    height: 150vh;
-    width: 50%;
-    background: url("https://raw.githubusercontent.com/maligaurav947/Portfolio/master/src/res/Gaurav's%20Resume.jpg")
-      no-repeat center;
-    background-size: contain;
-  }
-}
-.custom-shape-divider-bottom-1668168956 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
+.everysection:nth-child(even) {
 
-.custom-shape-divider-bottom-1668168956 svg {
-  position: relative;
-  display: block;
-  width: calc(145% + 1.3px);
-  height: 126px;
-}
-
-.custom-shape-divider-bottom-1668168956 .shape-fill {
-  fill: #ffffff;
+ margin-right: 50px;
 }

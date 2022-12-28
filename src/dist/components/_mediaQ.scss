@@ -1,233 +1,111 @@
-@media only screen and (max-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (max-width: 800px) {
-  section {
-    padding: 0 0.5em;
+@media screen and (max-width:756px) {
+ .exp {
+  flex-direction: column-reverse !important;
+
+  .list-text {
+   font-size: 0.9rem !important;
+  }
+ }
+
+ .everysection:nth-child(odd) {
+  margin-left: 0px !important;
+
+ }
+
+ .everysection:nth-child(even) {
+  margin-right: 0px !important;
+ }
+
+ .text-ok {
+  text-align: center !important;
+ }
+
+ .width-ok {
+  margin: 1vh 0;
+  width: 90% !important;
+  text-align: justify;
+ }
+
+ .exp-section {
+  flex-direction: column !important;
+
+  .list-text {
+   font-size: 0.9rem !important;
+  }
+ }
+
+ .everysection {
+  flex-direction: column;
+
+  .wif {
+   width: 100% !important;
+
+
+  }
+ }
+
+ .contact {
+  height: auto !important;
+ }
+
+ .input {
+  width: 90vw !important;
+ }
+
+ .flex-ok {
+  flex-direction: column;
+ }
+
+ .Container-home {
+  height: 80vh !important;
+ }
+
+ .contact {
+  height: 60vh !important;
+
+  .ohknow {
+   display: none !important;
+  }
+ }
+
+ .section-home {
+  flex-direction: column-reverse;
+  height: 90vh !important;
+  padding: 0 0.5em;
+
+  img {
+   display: none;
   }
 
-  h3 {
-    font-size: 4.5rem !important;
+
+  .button-28 {
+   width: auto;
   }
 
-  .bg-screen {
-    display: none !important;
+  .section-home__text {
+   width: 100% !important;
   }
+ }
 
-  .bg-img {
-    position: absolute;
-    width: 190px;
-    top: 130px;
-    left: 30%;
-  }
+ .bar {
+  flex-direction: column;
+ }
 
-  .menu {
-    display: block;
-    position: fixed;
-    top: 0;
-    right: 0;
-    font-size: 6.5rem;
-  }
+ .project-card {
+  height: 100% !important;
 
-  .hero-section {
-    flex-direction: column-reverse;
-    height: 100vh !important;
+ }
 
-    &__text {
-      width: 100%;
+ .section-project {
+  height: 100% !important;
+ }
 
-      p {
-        font-size: 1.7rem;
-      }
+ .project-row {
+  margin: 1vh 0;
+ }
 
-      &__btn {
-        background-color: transparent;
-        outline: none;
-      }
-    }
-  }
+ .header-navbar__ul__div__items {
+  font-size: 2.5rem !important;
+ }
 
-  .header-section {
-    top: 0px;
-    background-color: $primary-bg-color !important;
-    right: 0px;
-    position: fixed;
-
-    &__nav {
-      width: 100vw;
-      height: 80vh;
-      display: inline-flex;
-      background-color: black;
-      flex-direction: column;
-      gap: 80px;
-    }
-  }
-
-  .skill-main {
-    height: 60vh;
-
-    &__img {
-      grid-template-columns: 100px 100px 100px;
-      gap: 10px;
-      height: auto;
-
-      img {
-        width: 100px !important;
-      }
-    }
-  }
-
-  .about-section {
-    height: 110vh;
-    flex-direction: column;
-
-    &__img {
-      width: 100% !important;
-      animation: none;
-      height: 45vh;
-    }
-
-    &__text {
-      width: 100% !important;
-      text-align: justify;
-      padding: 0 0.6em;
-
-      h3 {
-        font-size: 5.6rem !important;
-        margin: 2vh 0;
-      }
-
-      p {
-        font-size: 1.5rem;
-      }
-    }
-  }
-
-  .project-section {
-    margin: 8vh 0;
-
-    h3 {
-      text-align: center;
-    }
-
-    &__main {
-      grid-template-columns: auto;
-
-      &__card {
-        height: 530px;
-      }
-    }
-  }
-
-  .project-section__main__card__text p{
-
-    font-size: 2rem;
-  }
-  .main-contact {
-    flex-direction: column;
-
-    &__img {
-      width: 100% !important;
-    }
-
-    &__form {
-      display: grid;
-      position: relative;
-      gap: 25px;
-
-      input,
-      textarea {
-        width: 350px;
-      }
-
-      textarea {
-        max-width: 350px;
-        min-width: 350px;
-      }
-    }
-  }
-
-  .resume-section {
-    button:first-child {
-      display: none;
-    }
-
-    main {
-      height: 80vh;
-      width: 90%;
-
-      background-size: contain;
-    }
-  }
-
-  .after-submit {
-    h4 {
-      font-size: 5.6rem;
-    }
-
-    p {
-      font-size: 4.5rem;
-    }
-  }
-
-  .footer-content {
-    flex-direction: column;
-  }
-
-  .exp-section {
-    height: 150vh;
-
-    @include grid(center);
-
-    h3 {
-      text-align: center;
-    }
-
-    main {
-      .Present {
-        display: flex;
-        align-items: center;
-        gap: 20px;
-
-        p {
-          color: #777;
-        }
-      }
-
-      display: flex;
-      flex-direction: column-reverse !important;
-
-      img {
-        width: 100%;
-        border-radius: 15px;
-      }
-
-      div {
-        width: 100%;
-
-        .job-postion {
-          font-family: $primary-ff;
-          font-size: 3.6rem;
-        }
-
-        .company-name {
-          font-size: 1.7rem;
-        }
-
-        .my-role {
-          font-family: $sec-ff;
-          font-size: 1.3rem;
-          text-align: justify;
-
-          p {
-            font-size: 2.2rem;
-          }
-
-          font-weight: 200;
-
-          li {
-            font-family: $sec-ff;
-            list-style-type: decimal-leading-zero;
-          }
-        }
-      }
-    }
-  }
 }
