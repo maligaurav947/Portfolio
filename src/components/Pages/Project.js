@@ -14,7 +14,7 @@ function Project() {
       <div className="d-grid gap-4 text-white  pt-5 pb-5 Container-home h-100">
         {data?.slice(0, 3).map((data) => (
           <MDBContainer
-            className="d-flex align-items-center gap-5 everysection rounded-5 bg-dark"
+            className="d-flex align-items-center gap-5 everysection rounded-5 "
             data-aos="fade-up"
           >
             <div className="w-50 wif">
@@ -32,9 +32,9 @@ function Project() {
               <h3>{data.title}</h3>
               <p>{data.info}</p>
               <p className="d-flex gap-2 align-items-center">
-                <MDBIcon fab icon="react" />
-                <MDBIcon fab icon="css3-alt" />
-                <MDBIcon fas icon="database" />
+                <MDBIcon fab icon={data.s1} size="lg" />
+                <MDBIcon fab icon={data.s2} size="lg" />
+                <MDBIcon fas icon={data.s3} size="lg" />
               </p>
               <div
                 className="d-flex gap-3  mb-3 align-items-center"
@@ -52,8 +52,9 @@ function Project() {
                     Live
                   </button>
                 </a>
-
-                <MDBIcon fab icon="github" size="2x" />
+                <a href={data.github} target="_blank">
+                  <MDBIcon fab icon="github" size="2x" />
+                </a>
               </div>
             </div>
           </MDBContainer>
@@ -62,10 +63,7 @@ function Project() {
         {showMore &&
           data?.slice(3).map((data) => (
             <MDBContainer
-              className="d-flex align-items-center gap-5 everysection rounded-5 bg-dark"
-              style={{
-                backgroundColor: "#183059",
-              }}
+              className="d-flex align-items-center gap-5 everysection rounded-5"
               data-aos="fade-up"
             >
               <div className="w-50 wif">
@@ -83,34 +81,29 @@ function Project() {
                 <h3>{data.title}</h3>
                 <p>{data.info}</p>
                 <p className="d-flex gap-2 align-items-center">
-                  <MDBIcon fab icon="react" />
-                  <MDBIcon fab icon="css3-alt" />
-                  <MDBIcon fas icon="database" />
+                  <MDBIcon fab icon={data.s1} size="lg" />
+                  <MDBIcon fab icon={data.s2} size="lg" />
+                  <MDBIcon fab icon={data.s3} size="lg" />
                 </p>
                 <div
-                  className="d-grid gap-3 mb-3 w-75"
+                  className="d-flex gap-3  mb-3 align-items-center"
                   style={{
                     gridAutoFlow: "column",
                   }}
                 >
-                  <div
-                    className="d-flex gap-3  mb-3 align-items-center"
-                    style={{
-                      gridAutoFlow: "column",
-                    }}
-                  >
-                    <a href={data.link} target={"_blank"} className="w-25">
-                      <button
-                        className="button-282 rounded-5 w-100"
-                        style={{
-                          height: "40px",
-                        }}
-                      >
-                        Live
-                      </button>
-                    </a>
+                  <a href={data.link} target={"_blank"} className="w-25">
+                    <button
+                      className="button-282 rounded-5 w-100"
+                      style={{
+                        height: "40px",
+                      }}
+                    >
+                      Live
+                    </button>
+                  </a>
+                  <a href={data.github} target="_blank">
                     <MDBIcon fab icon="github" size="2x" />
-                  </div>
+                  </a>
                 </div>
               </div>
             </MDBContainer>

@@ -20,7 +20,8 @@ function Media() {
         size="lg"
         floating
         style={{ backgroundColor: "#000" }}
-        href="#"
+        href="https://www.instagram.com/aka_gabbar_/"
+        target="_blank"
         className="mb-3"
       >
         <MDBIcon fab icon="instagram" color="white" />
@@ -29,7 +30,8 @@ function Media() {
         size="lg"
         floating
         style={{ backgroundColor: "#000" }}
-        href="#"
+        href="https://www.facebook.com/people/Mali-Gaurav/100008371203796/"
+        target="_blank"
         className="mb-3"
       >
         <MDBIcon fab icon="facebook-f" color="white" />
@@ -38,12 +40,19 @@ function Media() {
         size="lg"
         floating
         style={{ backgroundColor: "#000" }}
-        href="#"
+        href="https://www.linkedin.com/in/gaurav-mali-669869214/"
+        target="_blank"
         className="mb-3"
       >
         <MDBIcon fab icon="linkedin-in" color="white" />
       </MDBBtn>
-      <MDBBtn size="lg" floating style={{ backgroundColor: "#000" }} href="#">
+      <MDBBtn
+        size="lg"
+        floating
+        style={{ backgroundColor: "#000" }}
+        href="https://github.com/maligaurav947"
+        target="_blank"
+      >
         <MDBIcon fab icon="github" size="lg" color="white" />
       </MDBBtn>
     </div>

@@ -1,14 +1,15 @@
-import "../dist/css/main.css";
-import About from "./Pages/Extra Pages/About";
-import Contact from "./Pages/Extra Pages/Contact";
-import Home from "./Pages/Home";
-import Project from "./Pages/Extra Pages/Project";
-import Media from "./Pages/Header/Media";
+import "../style.css";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+import Home from "./Home";
+import Project from "./Pages/Project";
+import Media from "./Pages/Media";
 import React from "react";
 import AnimatedCursor from "react-animated-cursor";
-import GithubCont from "./Pages/Extra Pages/GithubCont";
-import Experience from "./Pages/Extra Pages/Experience";
+import GithubCont from "./Pages/GithubCont";
+import Experience from "./Pages/Experience";
 import { MDBContainer } from "mdb-react-ui-kit";
+
 function App() {
   console.log("Made With ❤️");
   let deTitle = document.title;
