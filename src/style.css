@@ -40,9 +40,19 @@ li {
  font-family: "Outfit", sans-serif;
  font-size: 1.8rem !important
 }
+.exper-card h6 {
+ font-size: 1.2rem !important;
+}
 
+.exper-card h3 {
+ font-size: 2rem !important;
+}
+
+.exper-card P {
+ font-size: 1rem !important;
+}
 h1 {
- font-size: 2.5rem !important
+ font-size: 3.5rem !important
 }
 
 h2 {
@@ -271,7 +281,7 @@ li:hover {
 
  .section-home {
   flex-direction: column-reverse;
-  height: 90vh !important;
+  height: 80vh !important;
   padding: 0 .5em
  }
 

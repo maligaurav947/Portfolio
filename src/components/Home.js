@@ -21,101 +21,107 @@ function Home() {
   return (
     <>
       <div className="Container-home">
-        <MDBContainer>
-          <section
-            className="d-flex align-items-center  justify-content-center text-center section-home"
-            style={{
-              height: "80vh",
-            }}
-          >
-            <main className="d-grid  gap-4 align-items-center section-home__text">
-              <h1
+        <section
+          className="d-grid align-items-center justify-content-center text-center section-home"
+          style={{
+            height: "90vh",
+          }}
+        >
+          <main className="d-grid gap-4 align-items-center section-home__text">
+            <h1
+              style={{
+                textTransform: "lowercase",
+                fontSize: "3.54rem",
+              }}
+            >
+              <span
                 style={{
-                  textTransform: "lowercase",
-                  fontSize: "3.54rem",
+                  color: "#EB5E28",
                 }}
               >
-                Hello , My Name Is
-                <span
+                Hello
+              </span>{" "}
+              , My Name Is
+              <span
+                style={{
+                  textTransform: "capitalize",
+                }}
+              >
+                <> </> Mali Gaurav
+                <small
                   style={{
-                    textTransform: "capitalize",
+                    fontSize: "1.1rem",
+                    textTransform: "lowercase",
                   }}
                 >
-                  <> </> Mali Gaurav
-                  <small
+                  {/* */} (aKa.
+                  <span
                     style={{
-                      fontSize: "1.1rem",
-                      textTransform: "lowercase",
+                      color: "#EB5E28",
                     }}
                   >
-                    {/* */} (aKa.
-                    <span
-                      style={{
-                        color: "#EB5E28",
-                      }}
-                    >
-                      GABABR )
-                    </span>
-                  </small>
-                </span>
-              </h1>
-              <h3
+                    GABABR )
+                  </span>
+                </small>
+              </span>
+            </h1>
+            <h3
+              style={{
+                textTransform: "lowercase",
+                fontSize: "2.54rem",
+                color: "#EB5E28",
+              }}
+            >
+              I AM{" "}
+              <span
                 style={{
-                  textTransform: "lowercase",
-                  fontSize: "2.54rem",
+                  textTransform: "capitalize",
+                  color: "#fff",
                 }}
               >
-                I AM{" "}
-                <span
-                  style={{
-                    textTransform: "capitalize",
-                    color: "#EB5E28",
+                <TypeIt
+                  getBeforeInit={(instance) => {
+                    instance
+                      .type("Front End Develsper")
+                      .pause(750)
+                      .delete(4)
+                      .pause(500)
+                      .type("oper")
+                      .pause(600)
+                      .type(" & UI Designer");
+                    return instance;
                   }}
-                >
-                  <TypeIt
-                    getBeforeInit={(instance) => {
-                      instance
-                        .type("Front End Develsper")
-                        .pause(750)
-                        .delete(4)
-                        .pause(500)
-                        .type("oper")
-                        .pause(600)
-                        .type(" & UI Designer");
-                      return instance;
-                    }}
-                  />
-                </span>
-              </h3>
+                />
+              </span>
+            </h3>
 
-              <div className="d-flex gap-2 flex-wrap align-items-center justify-content-center">
-                <a href="#contact">
-                  <button className="button-28 w-100" role="button">
-                    Get In Touch
-                  </button>
-                </a>
-                <a
-                  href="https://drive.google.com/file/d/1HMyaZYmb_dWDmm7zyIdviyi7CryxE2oo/view?usp=sharing"
-                  target={"_blank"}
+            <div className="d-flex gap-2 flex-wrap align-items-center justify-content-center">
+              <a href="#contact">
+                <button className="button-28 w-100" role="button">
+                  Get In Touch
+                </button>
+              </a>
+              <a
+                href="https://drive.google.com/file/d/1HMyaZYmb_dWDmm7zyIdviyi7CryxE2oo/view?usp=sharing"
+                target={"_blank"}
+              >
+                <button
+                  className="button-28 button-282 w-100 d-flex gap-3 align-items-center"
+                  role="button"
                 >
-                  <button
-                    className="button-28 button-282 w-100 d-flex gap-3 align-items-center"
-                    role="button"
-                  >
-                    <MDBIcon fas icon="cloud-download-alt" /> Resume
-                  </button>
-                </a>
-              </div>
-            </main>
-            {/* <main className="section-home__img d-grid align-items-center justify-content-center">
+                  <MDBIcon fas icon="cloud-download-alt" /> Resume
+                </button>
+              </a>
+            </div>
+          </main>
+          {/* <main className="section-home__img d-grid align-items-center justify-content-center">
               <img
                 className="rounded mt-5"
                 src="https://images.pexels.com/photos/13915795/pexels-photo-13915795.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 
               />
             </main> */}
-          </section>
-        </MDBContainer>
+        </section>
       </div>
       <MDBContainer className="text-center ">
         <h1 className="mb-5 mt-5">Here Are Some Thing A Love</h1>
