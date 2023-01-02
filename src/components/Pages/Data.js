@@ -1,5 +1,15 @@
 const data = [
   {
+    img: "https://raw.githubusercontent.com/maligaurav947/Portfolio/567840b07268318cba69fd5c50315781e7326d69/src/reso/Screenshot%202023-01-03%20002533.png",
+    title: "Quiz Game React",
+    info: "A React quiz application related to trivia knowledge which generates random questions",
+    link: "https://maligaurav947.github.io/quiz-react/",
+    github: "https://github.com/maligaurav947/quiz-react/tree/master",
+    s1: "react",
+    s2: "css3-alt",
+    s3: "database",
+  },
+  {
     img: "https://raw.githubusercontent.com/maligaurav947/Portfolio/744ae5f79bbe0623dc67fbb63a2afb5db32eed2d/src/res/Student.png",
     title: "Student Details System",
     info: "BTECH Finally Year Project Content Firebase DATABASE React.js",

@@ -114,13 +114,6 @@ function Home() {
               </a>
             </div>
           </main>
-          {/* <main className="section-home__img d-grid align-items-center justify-content-center">
-              <img
-                className="rounded mt-5"
-                src="https://images.pexels.com/photos/13915795/pexels-photo-13915795.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                
-              />
-            </main> */}
         </section>
       </div>
       <MDBContainer className="text-center ">
