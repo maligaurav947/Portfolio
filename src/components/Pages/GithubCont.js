@@ -7,7 +7,7 @@ function GithubCont() {
     <div className="mt-5">
       <h1 className="text-center mb-5 mt-5">GitHub Contributions Calendar</h1>
       <div
-        className="pb-2 pt-2 d-grid align-items-center justify-content-center bg-dark"
+        className="pt-1 pb-1 ps-4 d-grid bg-dark"
         style={{
           height: "40vh",
         }}
@@ -17,8 +17,8 @@ function GithubCont() {
             username="maligaurav947"
             transformData={selectLastHalfYear}
             hideColorLegend={false}
-            hideTotalCount={false}
             blockSize={18}
+            hideTotalCount={false}
             showWeekdayLabels={true}
           />
         </MDBContainer>

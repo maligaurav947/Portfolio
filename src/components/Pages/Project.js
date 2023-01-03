@@ -1,14 +1,9 @@
 import React, { useEffect, useState } from "react";
-import {
-  MDBBtn,
-  MDBIcon,
-  MDBContainer,
-  MDBRow,
-  MDBCol,
-} from "mdb-react-ui-kit";
+import { MDBIcon, MDBContainer } from "mdb-react-ui-kit";
 import data from "./Data";
 import Aos from "aos";
 import "aos/dist/aos.css";
+
 function Project() {
   useEffect(() => {
     Aos.init({ once: true, duration: 1000 });
@@ -17,7 +12,7 @@ function Project() {
   return (
     <>
       <h1 className="text-center pt-5 mb-5">Project</h1>
-      <div className="d-grid gap-4 text-white  pt-5 pb-5 Container-home h-100 gap-5  ">
+      <div className="d-grid gap-4 text-white  pt-5 pb-5 Container-home h-100 gap-5 home">
         {data?.slice(0, 3).map((data) => (
           <MDBContainer
             className="d-flex align-items-center gap-5 everysection rounded-5 "
@@ -65,7 +60,6 @@ function Project() {
             </div>
           </MDBContainer>
         ))}
-
         {showMore &&
           data?.slice(3).map((data) => (
             <MDBContainer
