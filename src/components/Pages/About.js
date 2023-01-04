@@ -1,9 +1,4 @@
-import {
-  MDBContainer,
-  MDBIcon,
-  MDBProgress,
-  MDBProgressBar,
-} from "mdb-react-ui-kit";
+import { MDBIcon, MDBProgress, MDBProgressBar } from "mdb-react-ui-kit";
 import React from "react";
 
 function About() {
@@ -133,7 +128,7 @@ function About() {
                 JavaScript
               </p>
               <span className="text-primary">
-                <MDBProgress height="10" className="rounded bg-success">
+                <MDBProgress height="10" className="rounded ">
                   <MDBProgressBar
                     bgColor="secondary"
                     animated
@@ -151,10 +146,7 @@ function About() {
                   HTML/CSS
                 </p>
                 <span className="text-primary">
-                  <MDBProgress
-                    height="10"
-                    className="text-secondary rounded bg-success"
-                  >
+                  <MDBProgress height="10" className="text-secondary rounded ">
                     <MDBProgressBar
                       animated
                       width="91"
@@ -173,10 +165,7 @@ function About() {
                   React
                 </p>
                 <span className="text-primary">
-                  <MDBProgress
-                    height="10"
-                    className="text-secondary bg-success rounded"
-                  >
+                  <MDBProgress height="10" className="text-secondary rounded">
                     <MDBProgressBar
                       animated
                       width="62"
@@ -195,10 +184,7 @@ function About() {
                   Bootstrap
                 </p>
                 <span className="text-primary">
-                  <MDBProgress
-                    height="10"
-                    className="text-secondary rounded bg-success"
-                  >
+                  <MDBProgress height="10" className="text-secondary rounded ">
                     <MDBProgressBar
                       animated
                       width="85"

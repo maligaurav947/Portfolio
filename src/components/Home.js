@@ -96,11 +96,12 @@ function Home() {
             </h3>
 
             <div className="d-flex gap-2 flex-wrap align-items-center justify-content-center">
-              <a href="#contact">
+              <a href="mailto:maligaurav947@gmail.com">
                 <button className="button-28 w-100" role="button">
                   Get In Touch
                 </button>
               </a>
+
               <a
                 href="https://drive.google.com/file/d/1HMyaZYmb_dWDmm7zyIdviyi7CryxE2oo/view?usp=sharing"
                 target={"_blank"}
@@ -109,7 +110,8 @@ function Home() {
                   className="button-28 button-282 w-100 d-flex gap-3 align-items-center"
                   role="button"
                 >
-                  <MDBIcon fas icon="cloud-download-alt" /> Resume
+                  <MDBIcon fas icon="cloud-download-alt" />
+                  Download Resume
                 </button>
               </a>
             </div>
@@ -119,7 +121,7 @@ function Home() {
       <MDBContainer className="text-center ">
         <h1 className="mb-5 mt-5">Here Are Some Thing A Love</h1>
         <div data-aos="fade" data-aos-anchor-placement="top">
-          <MDBCardGroup className="d-flex align-items-center justify-content-center gap-1 p-1 bar">
+          <MDBCardGroup className="d-flex align-items-center justify-content-center gap-3 p-1 bar">
             <MDBCard
               shadow="1"
               border="secondary"

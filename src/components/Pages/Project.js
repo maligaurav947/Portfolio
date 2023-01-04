@@ -19,6 +19,7 @@ function Project() {
               borderRadius: "10px",
               height: "260px",
             }}
+            data-aos={data.aos}
           >
             <img
               src={data.img}

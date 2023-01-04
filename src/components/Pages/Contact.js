@@ -12,16 +12,14 @@ function Contact() {
   }
   return (
     <>
-      <h1 className="text-center pt-5">Contact @Me</h1>
+      <h1 className="text-center pt-5 mb-5">Contact @Me</h1>
       <ToastContainer />
       <div
         id="contact"
-        className="d-flex align-items-center  gap-3 contact "
-        style={{
-          height: "75vh",
-        }}
+        className="d-flex align-items-center justify-content-around  gap-3 contact "
+        style={{ height: "70vh" }}
       >
-        <div className="d-grid gap-3 w-75 ohknow">
+        <div className="d-grid gap-3 w-50 ohknow">
           <p>
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
@@ -31,15 +29,15 @@ function Contact() {
           <p>
             Email: <span>@maligaurav947@gmail.com</span>
           </p>
-          <div className="d-flex align-items-center gap-3">
+          <div className="d-lg-none align-items-center smlll d-sm-flex">
             <MDBIcon fab icon="instagram" size="2x" />
-            <MDBIcon fab icon="facebook-f" size="2x" />
-            <MDBIcon fab icon="linkedin-in" size="2x" />
+            <MDBIcon fab icon="facebook-f" size="2x" className="ms-2" />
+            <MDBIcon fab icon="linkedin-in" size="2x" className="ms-2" />
           </div>
         </div>
         <form onSubmit={handleSubmit} className="d-grid justify-content-end">
-          <div className="d-grid gap-2">
-            <div className="d-grid">
+          <div className="d-grid gap-3">
+            <div className="d-grid gap-2">
               <label
                 htmlFor="email"
                 style={{
@@ -54,7 +52,7 @@ function Contact() {
                 name="email"
                 style={{
                   height: "35px",
-                  width: "340px",
+                  width: "450px",
                 }}
               />
               <ValidationError
@@ -63,7 +61,7 @@ function Contact() {
                 errors={state.errors}
               />
             </div>
-            <div className="d-grid">
+            <div className="d-grid gap-2">
               <label
                 htmlFor="message"
                 style={{
@@ -76,9 +74,9 @@ function Contact() {
                 id="message"
                 name="message"
                 style={{
-                  height: "100px",
-                  maxHeight: "125px",
-                  width: "340px",
+                  height: "150px",
+                  maxHeight: "180px",
+                  width: "450px",
                 }}
               />
               <ValidationError
@@ -90,7 +88,7 @@ function Contact() {
             <div className="d-flex justify-content-end w-100">
               <button
                 type="submit"
-                className="button-282"
+                className="button-28 w-50"
                 disabled={state.submitting}
               >
                 Submit

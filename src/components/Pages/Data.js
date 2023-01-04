@@ -9,6 +9,7 @@ const data = [
     s2: "css3-alt",
     s3: "database",
     val: "imghvr-push-right",
+    aos: "fade-right",
   },
   {
     img: "https://raw.githubusercontent.com/maligaurav947/Portfolio/744ae5f79bbe0623dc67fbb63a2afb5db32eed2d/src/res/Student.png",
@@ -20,6 +21,7 @@ const data = [
     s2: "css3-alt",
     s3: "database",
     val: "imghvr-push-up",
+    aos: "fade-center",
   },
   {
     img: "https://github.com/maligaurav947/Portfolio/blob/master/src/reso/screencapture-maligaurav947-github-io-news-2022-11-11-09_32_37.png?raw=true",
@@ -31,6 +33,7 @@ const data = [
     s2: "css3-alt",
     s3: "retweet",
     val: "imghvr-zoom-out-up",
+    aos: "fade-left",
   },
   {
     img: "https://user-images.githubusercontent.com/86152880/197372331-04bcc17f-1e95-4e80-b078-460ba3bf4d46.png",
@@ -42,6 +45,7 @@ const data = [
     s2: "css3-alt",
     s3: "",
     val: "imghvr-push-up",
+    aos: "fade-right",
   },
   {
     img: "https://github.com/maligaurav947/Portfolio/blob/master/src/reso/toy-shop.png?raw=true",
@@ -53,6 +57,7 @@ const data = [
     s2: "css3-alt",
     s3: "js",
     val: "imghvr-shutter-out-vert",
+    aos: "fade-center",
   },
   {
     img: "https://github.com/maligaurav947/Portfolio/blob/master/src/reso/bank-developer.png?raw=true",
@@ -64,6 +69,7 @@ const data = [
     s2: "css3-alt",
     s3: "js",
     val: "imghvr-slide-down",
+    aos: "fade-left",
   },
   {
     img: "https://github.com/maligaurav947/Portfolio/blob/master/src/reso/show-case.png?raw=true",
@@ -75,6 +81,7 @@ const data = [
     s2: "css3-alt",
     s3: "",
     val: "imghvr-hinge-up",
+    aos: "fade-right",
   },
 ];
 

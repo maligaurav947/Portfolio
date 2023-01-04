@@ -4,7 +4,7 @@ import React from "react";
 function Media() {
   return (
     <div
-      className="d-flex flex-column align-items-center"
+      className=" d-lg-flex flex-column align-items-center media"
       style={{
         position: "fixed",
         right: "10px",
