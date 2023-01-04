@@ -59,7 +59,9 @@ h2 {
  letter-spacing: .8rem;
  font-size: 2rem !important
 }
-
+.project-p{
+ font-size: 0.9rem !important;
+}
 p,
 a {
  font-size: 1.1rem !important;
@@ -123,7 +125,6 @@ li:hover {
  width: 19%;
  will-change: transform
 }
-
 .button-282 {
  width: 25%;
  background-color: #1a1a1a;
@@ -196,7 +197,10 @@ li:hover {
  .exp {
   flex-direction: column-reverse !important
  }
+ .home{
+  grid-template-columns: auto  !important;
 
+  }
  .exp .list-text {
   font-size: .9rem !important
  }
@@ -296,4 +300,11 @@ li:hover {
  .header-navbar__ul__div__items {
   font-size: 2.5rem !important
  }
+}
+
+
+
+.home{
+grid-template-columns: auto auto auto;
+grid-template-rows: auto;
 }
