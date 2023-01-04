@@ -20,7 +20,7 @@ function Experience() {
               width: "444px",
               objectFit: "cover",
             }}
-            className="images-exp"
+            className="images-exp rounded-5"
           />
           <div className="d-grid gap-2">
             <h3>Front End Developer Intern</h3>
@@ -56,7 +56,7 @@ function Experience() {
               width: "444px",
               objectFit: "cover",
             }}
-            className="images-exp"
+            className="images-exp  rounded-5"
           />
         </div>
       </div>
