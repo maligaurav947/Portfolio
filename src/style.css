@@ -5,8 +5,8 @@
  margin: 0;
  padding: 0;
  box-sizing: border-box !important;
- list-style-type: none !important
-
+ list-style-type: none !important;
+ overflow-x: hidden !important;
  
 }
  * ::selection{
