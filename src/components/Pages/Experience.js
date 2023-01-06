@@ -19,6 +19,7 @@ function Experience() {
               height: "250px",
               width: "444px",
               objectFit: "cover",
+
             }}
             className="images-exp rounded-5"
           />

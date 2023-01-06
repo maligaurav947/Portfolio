@@ -11,7 +11,7 @@ function Project() {
   return (
     <>
       <h1 className="text-center pt-5 mb-5">Project</h1>
-      <div className="d-grid gap-4 text-white  pt-5 pb-5 Container-home h-100 gap-5 home">
+      <div className="d-grid gap-4 text-white  pt-5 pb-5 Container-home h-100 gap-5 home project">
         {data.map((data) => (
           <figure
             class={data.val}
@@ -47,7 +47,7 @@ function Project() {
                 <div
                   style={{
                     position: "relative",
-                    bottom: "0px",
+                    top: "0px",
                   }}
                 >
                   <a href={data.link} target={"_blank"} className="w-50 ms-5">

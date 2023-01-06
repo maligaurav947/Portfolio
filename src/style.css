@@ -5,9 +5,7 @@
  margin: 0;
  padding: 0;
  box-sizing: border-box !important;
- list-style-type: none !important;
- overflow-x: hidden !important;
- 
+ list-style-type: none !important; 
 }
  * ::selection{
  background-color: #6365f1c3 !important;
@@ -199,6 +197,9 @@ li:hover {
 }
 
 @media screen and (max-width: 756px) {
+ .project{
+  overflow-x:hidden !important ;
+ }
 .images-exp{
  display: none !important;
 }
