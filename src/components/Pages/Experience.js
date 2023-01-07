@@ -19,7 +19,6 @@ function Experience() {
               height: "250px",
               width: "444px",
               objectFit: "cover",
-
             }}
             className="images-exp rounded-5"
           />
@@ -38,7 +37,7 @@ function Experience() {
           className="exper-card d-flex align-items-center gap-3"
           data-aos="zoom-out-right"
         >
-          <div className="d-grid gap-2 w-75">
+          <div className="d-grid gap-2">
             <h3>Lead Genration Executive</h3>
             <h6>MSys Technologies</h6>
             <p>

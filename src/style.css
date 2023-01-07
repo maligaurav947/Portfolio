@@ -1,11 +1,24 @@
 @import"https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap";
 @import"https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap";
+.dark {
+ color: #fff !important;
+ background-color: #222222 !important ;
+ }
+ .light {
+ background-color: #fff !important;
+ color: #333 !important;
+ }
+ .dark button{
+  color: #fff !important;
+ }
+ 
 
 * {
  margin: 0;
  padding: 0;
  box-sizing: border-box !important;
  list-style-type: none !important; 
+
 }
  * ::selection{
  background-color: #6365f1c3 !important;
@@ -13,6 +26,7 @@
 ::-webkit-scrollbar {
  width: 0
 }
+
 
 .textlimit {
  display: -webkit-box;
@@ -64,6 +78,9 @@ h2 {
 .project-p{
  font-size: 0.9rem !important;
 }
+body{
+ overflow-x: hidden !important;
+}
 p,
 a {
  font-size: 1.1rem !important;
@@ -86,10 +103,7 @@ a {
 li {
  font-size: 5.6rem
 }
-body{
- color: #fff !important;
- background-color: #222222 !important ;
-}
+
 li:hover {
  text-decoration: underline !important
 }
@@ -109,7 +123,7 @@ li:hover {
  background-color: rgba(0, 0, 0, 0);
  border: 2px solid #1a1a1a;
  box-sizing: border-box;
- color: #fff;
+
  cursor: pointer;
  display: inline-block;
  font-family: "Raleway", sans-serif !important;
@@ -195,14 +209,17 @@ li:hover {
 .exp-section {
  box-shadow: rgba(0, 0, 0, .4) 0px 2px 4px, rgba(0, 0, 0, .3) 0px 7px 13px -3px, rgba(0, 0, 0, .2) 0px -3px 0px inset
 }
-
+.icon-button{
+ right: 20px;
+}
 @media screen and (max-width: 756px) {
- .project{
-  overflow-x:hidden !important ;
+ .icon-button{
+  left: 11px;
  }
 .images-exp{
  display: none !important;
 }
+
  input,textarea{
   width: 380px !important;
  }#contact{
@@ -233,7 +250,7 @@ li:hover {
 
  .width-ok {
   margin: 1vh 0;
-  width: 90% !important;
+  width: 95% !important;
   text-align: justify
  }
 
@@ -320,4 +337,49 @@ width: 100% !important;
 .home{
 grid-template-columns: auto auto auto;
 grid-template-rows: auto;
+}
+
+body.dark {
+ background-color: #292c35;
+}
+.checkbox {
+ opacity: 0;
+ position: absolute;
+}
+
+.label {
+ width: 50px;
+ height: 26px;
+ background-color:#111;
+ display: flex;
+ border-radius:50px;
+ align-items: center;
+ justify-content: space-between;
+ padding: 5px;
+ position: relative;
+ transform: scale(1.5);
+}
+
+.ball {
+ width: 20px;
+ height: 20px;
+ background-color: white;
+ position: absolute;
+ top: 2px;
+ left: 2px;
+ border-radius: 50%;
+ transition: transform 0.2s linear;
+}
+
+/*  target the elemenent after the label*/
+.checkbox:checked + .label .ball{
+ transform: translateX(24px);
+}
+
+.fa-moon {
+ color: pink;
+}
+
+.fa-sun {
+ color: yellow;
 }

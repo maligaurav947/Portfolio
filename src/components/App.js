@@ -12,6 +12,7 @@ import Loader from "./Pages/Loader";
 import { useEffect, useState } from "react";
 
 function App() {
+
   const [loaded, setLoaded] = useState(false);
   console.log("Made With ❤️");
   let deTitle = document.title;
@@ -27,12 +28,13 @@ function App() {
       clearTimeout(timer);
     };
   }, []);
+
   return (
     <>
       {!loaded ? (
         <Loader />
       ) : (
-        <>
+        <div>
           <AnimatedCursor
             innerSize={20}
             outerSize={25}
@@ -56,6 +58,7 @@ function App() {
           />
           <Media />
           <Home />
+
           <MDBContainer>
             <Experience />
           </MDBContainer>
@@ -67,7 +70,7 @@ function App() {
           <MDBContainer>
             <Contact />
           </MDBContainer>
-        </>
+        </div>
       )}
     </>
   );

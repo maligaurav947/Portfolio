@@ -6,8 +6,9 @@ import "aos/dist/aos.css";
 
 function Project() {
   useEffect(() => {
-    Aos.init({ once: true, duration: 1000 });
+    Aos.init({ once: true, duration: 1000, disable: "mobile" });
   });
+  
   return (
     <>
       <h1 className="text-center pt-5 mb-5">Project</h1>

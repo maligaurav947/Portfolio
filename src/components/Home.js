@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import {
   MDBCard,
   MDBCardBody,
@@ -15,12 +15,42 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 function Home() {
+  const [theme, setTheme] = useState("light");
   useEffect(() => {
     Aos.init({ once: true, duration: 2000 });
   });
+  const toggleTheme = () => {
+    if (theme === "light") {
+      setTheme("dark");
+    } else {
+      setTheme("light");
+    }
+  };
+  useEffect(() => {
+    document.body.className = theme;
+  }, [theme]);
   return (
     <>
-      <div className="Container-home">
+      <div className="Container-home" style={{ overflow: "hidden" }}>
+        <div
+          style={{
+            position: "absolute",
+            top: "15px",
+          }}
+          className="icon-button"
+        >
+          <input
+            type="checkbox"
+            class="checkbox"
+            id="checkbox"
+            onClick={toggleTheme}
+          />
+          <label for="checkbox" class="label">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+          </label>
+        </div>
         <section
           className="d-grid align-items-center justify-content-center text-center section-home"
           style={{
@@ -32,6 +62,8 @@ function Home() {
               style={{
                 textTransform: "lowercase",
                 fontSize: "3.54rem",
+
+                color: "#fff",
               }}
             >
               <span
@@ -97,7 +129,7 @@ function Home() {
 
             <div className="d-flex gap-2 flex-wrap align-items-center justify-content-center">
               <a href="mailto:maligaurav947@gmail.com">
-                <button className="button-28 w-100" role="button">
+                <button className="button-28 w-100 text-white" role="button">
                   Get In Touch
                 </button>
               </a>
