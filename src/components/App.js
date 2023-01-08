@@ -12,16 +12,17 @@ import Loader from "./Pages/Loader";
 import { useEffect, useState } from "react";
 
 function App() {
-
   const [loaded, setLoaded] = useState(false);
   console.log("Made With ❤️");
   let deTitle = document.title;
+  const [theme, setTheme] = useState("light");
   window.addEventListener("blur", () => {
     document.title = "We Are Waiting...";
   });
   window.addEventListener("focus", () => {
     document.title = deTitle;
   });
+
   useEffect(() => {
     let timer = setTimeout(() => setLoaded(true), 2000);
     return () => {
@@ -38,7 +39,7 @@ function App() {
           <AnimatedCursor
             innerSize={20}
             outerSize={25}
-            color="255,255,255"
+            color="77,77,177"
             outerAlpha={0.2}
             innerScale={0.8}
             outerScale={5}

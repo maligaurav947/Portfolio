@@ -91,15 +91,29 @@ function About() {
             <div className="d-flex gap-5 align-items-center">
               <p>
                 Front End Developer Intern <br />
-                <span className="text-primary">Recruit NXT</span>
+                <span className="text-primary">
+                  <a
+                    href="https://www.linkedin.com/company/recruitnxt/"
+                    target={"_blank"}
+                  >
+                    Recruit NXT
+                  </a>
+                </span>
               </p>
-              <span>22 Sep - Present</span>
+              <span>22 Sep - 10Jan</span>
             </div>
             <div className="d-flex gap-5 align-items-center">
               <p>
                 Lead Genration Executive
                 <br />
-                <span className="text-primary">MSys Technologies</span>
+                <span className="text-primary">
+                  <a
+                    href="https://www.linkedin.com/company/msys-technologies/"
+                    target={"_blank"}
+                  >
+                    MSys Technologies
+                  </a>
+                </span>
               </p>
               <span>Dec 20 - Dec 21</span>
             </div>
