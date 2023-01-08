@@ -66,7 +66,7 @@ function App() {
           <MDBContainer>
             <About />
           </MDBContainer>
-          {/* <GithubCont /> */}
+          <GithubCont />
           <MDBContainer>
             <Contact />
           </MDBContainer>
