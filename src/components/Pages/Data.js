@@ -1,5 +1,16 @@
 const data = [
   {
+    img: "https://raw.githubusercontent.com/maligaurav947/Portfolio/672a8cebf04152bf4e884fe737bfbfed2a895938/src/reso/Weather-react-app.png",
+    title: "React Weather App",
+    info: "A React Weather App That Containe Weather Data From Api",
+    link: "https://maligaurav947.github.io/react-weather-app/",
+    github: "https://github.com/maligaurav947/react-weather-app/tree/master",
+    s1: "react",
+    s2: "css3-alt",
+    val: "imghvr-push-down",
+    aos: "fade-right",
+  },
+  {
     img: "https://raw.githubusercontent.com/maligaurav947/Portfolio/567840b07268318cba69fd5c50315781e7326d69/src/reso/Screenshot%202023-01-03%20002533.png",
     title: "Quiz Game React",
     info: "A React quiz application related to trivia knowledge which generates random questions",
@@ -7,7 +18,6 @@ const data = [
     github: "https://github.com/maligaurav947/quiz-react/tree/master",
     s1: "react",
     s2: "css3-alt",
-    s3: "database",
     val: "imghvr-push-right",
     aos: "fade-right",
   },

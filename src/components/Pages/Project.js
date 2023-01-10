@@ -15,7 +15,7 @@ function Project() {
       <div className="d-grid gap-4 text-white  pt-5 pb-5 Container-home h-100 gap-5 home project">
         {data.map((data) => (
           <figure
-            class={data.val}
+            className={data.val}
             style={{
               borderRadius: "10px",
               height: "260px",
@@ -40,15 +40,11 @@ function Project() {
               >
                 <h3>{data.title}</h3>
                 <p className="project-p">{data.info}</p>
-                <p className="d-flex gap-2 align-items-center">
-                  <MDBIcon fab icon={data.s1} size="lg" />
-                  <MDBIcon fab icon={data.s2} size="lg" />
-                  <MDBIcon fab icon={data.s3} size="lg" />
-                </p>
                 <div
                   style={{
                     position: "relative",
                     top: "0px",
+                    marginTop: "2vh",
                   }}
                 >
                   <a href={data.link} target={"_blank"} className="w-50 ms-5">

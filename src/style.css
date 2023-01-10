@@ -176,7 +176,7 @@ li:hover {
 }
 
 .Container-home {
- background: url(https://images.pexels.com/photos/1910225/pexels-photo-1910225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center;
+ background: url(https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&w=600) no-repeat center;
  background-size: cover !important;
  background-attachment: fixed;
  background-color: rgba(0, 0, 0, 0.537);
@@ -383,3 +383,5 @@ body.dark {
 .fa-sun {
  color: yellow;
 }
+
+
