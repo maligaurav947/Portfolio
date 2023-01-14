@@ -6,17 +6,17 @@ A Fully Responsive Front End Developer Portfolio React App
 
 
 ## Section
-    Hero
-    Interset
-    Experience
-    Project
-    About Me
-    GitHub Contributions Calendar
-    Contact US
+    -Hero
+    -Interset
+    -Experience
+    -Project
+    -About Me
+    -GitHub Contributions Calendar
+    -Contact US
 
 ## Features
-    Dark Mode
-    Animation 
+    -Dark Mode
+    -Animation 
   
 ## Demo
 
