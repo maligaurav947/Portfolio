@@ -176,7 +176,8 @@ li:hover {
 }
 
 .Container-home {
- background: url(https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&w=600) no-repeat center;
+ background: url(./reso/bbblurry1.svg
+ ) no-repeat center;
  background-size: cover !important;
  background-attachment: fixed;
  background-color: rgba(0, 0, 0, 0.537);
