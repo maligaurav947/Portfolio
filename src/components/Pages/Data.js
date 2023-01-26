@@ -1,5 +1,16 @@
 const data = [
   {
+    img: "https://raw.githubusercontent.com/maligaurav947/Portfolio/a2b34534720ed96ebfd94a38da7495fc4a1b5663/src/reso/Reactecommercestoere.png",
+    title: "React Ecommerce Store",
+    info: "A React Ecommerce Store That Containe Store Management",
+    link: "https://maligaurav947.github.io/react-ecommerce-store/",
+    github: "https://github.com/maligaurav947/react-ecommerce-store",
+    s1: "react",
+    s2: "css3-alt",
+    val: "imghvr-push-down",
+    aos: "fade-right",
+  },
+  {
     img: "https://raw.githubusercontent.com/maligaurav947/Portfolio/672a8cebf04152bf4e884fe737bfbfed2a895938/src/reso/Weather-react-app.png",
     title: "React Weather App",
     info: "A React Weather App That Containe Weather Data From Api",
@@ -7,8 +18,8 @@ const data = [
     github: "https://github.com/maligaurav947/react-weather-app/tree/master",
     s1: "react",
     s2: "css3-alt",
-    val: "imghvr-push-down",
-    aos: "fade-right",
+    val: "imghvr-push-up",
+    aos: "fade-center",
   },
   {
     img: "https://raw.githubusercontent.com/maligaurav947/Portfolio/567840b07268318cba69fd5c50315781e7326d69/src/reso/Screenshot%202023-01-03%20002533.png",
@@ -19,7 +30,7 @@ const data = [
     s1: "react",
     s2: "css3-alt",
     val: "imghvr-push-right",
-    aos: "fade-center",
+    aos: "fade-left",
   },
   {
     img: "https://raw.githubusercontent.com/maligaurav947/Portfolio/744ae5f79bbe0623dc67fbb63a2afb5db32eed2d/src/res/Student.png",
@@ -31,7 +42,7 @@ const data = [
     s2: "css3-alt",
     s3: "database",
     val: "imghvr-push-up",
-    aos: "fade-left",
+    aos: "fade-right",
   },
   {
     img: "https://github.com/maligaurav947/Portfolio/blob/master/src/reso/screencapture-maligaurav947-github-io-news-2022-11-11-09_32_37.png?raw=true",
@@ -43,7 +54,7 @@ const data = [
     s2: "css3-alt",
     s3: "retweet",
     val: "imghvr-zoom-out-up",
-    aos: "fade-right",
+    aos: "fade-center",
   },
   {
     img: "https://user-images.githubusercontent.com/86152880/197372331-04bcc17f-1e95-4e80-b078-460ba3bf4d46.png",
@@ -55,7 +66,7 @@ const data = [
     s2: "css3-alt",
     s3: "",
     val: "imghvr-push-up",
-    aos: "fade-center",
+    aos: "fade-left",
   },
   {
     img: "https://github.com/maligaurav947/Portfolio/blob/master/src/reso/toy-shop.png?raw=true",
@@ -67,7 +78,7 @@ const data = [
     s2: "css3-alt",
     s3: "js",
     val: "imghvr-shutter-out-vert",
-    aos: "fade-left",
+    aos: "fade-right",
   },
   {
     img: "https://github.com/maligaurav947/Portfolio/blob/master/src/reso/bank-developer.png?raw=true",
@@ -79,7 +90,7 @@ const data = [
     s2: "css3-alt",
     s3: "js",
     val: "imghvr-slide-down",
-    aos: "fade-right",
+    aos: "fade-center",
   },
   {
     img: "https://github.com/maligaurav947/Portfolio/blob/master/src/reso/show-case.png?raw=true",
@@ -91,7 +102,7 @@ const data = [
     s2: "css3-alt",
     s3: "",
     val: "imghvr-hinge-up",
-    aos: "fade-center",
+    aos: "fade-lef",
   },
 ];
 
