@@ -1,6 +1,6 @@
 const data = [
   {
-    img: "https://raw.githubusercontent.com/maligaurav947/Portfolio/a2b34534720ed96ebfd94a38da7495fc4a1b5663/src/reso/Reactecommercestoere.png",
+    img: "https://raw.githubusercontent.com/maligaurav947/Portfolio/3f2a0a28289298b1c0a5e26c246b62aec39f1c39/src/reso/Reactecommercestoere.png",
     title: "React Ecommerce Store",
     info: "A React Ecommerce Store That Containe Store Management",
     link: "https://maligaurav947.github.io/react-ecommerce-store/",
