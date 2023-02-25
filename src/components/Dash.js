@@ -11,7 +11,7 @@ import { MDBContainer } from "mdb-react-ui-kit";
 import Loader from "./Pages/Loader";
 import { useEffect, useState } from "react";
 
-function App() {
+function Dash() {
   const [loaded, setLoaded] = useState(false);
   console.log("Made With ❤️");
   let deTitle = document.title;
@@ -77,4 +77,4 @@ function App() {
   );
 }
 
-export default App;
+export default Dash;
