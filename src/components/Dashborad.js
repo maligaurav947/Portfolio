@@ -1,17 +1,17 @@
-import "../style.css";
-import About from "./Pages/About";
-import Contact from "./Pages/Contact";
-import Home from "./Home";
-import Project from "./Pages/Project";
-import Media from "./Pages/Media";
 import AnimatedCursor from "react-animated-cursor";
-import GithubCont from "./Pages/GithubCont";
-import Experience from "./Pages/Experience";
+import "../style.css";
 import { MDBContainer } from "mdb-react-ui-kit";
-import Loader from "./Pages/Loader";
+import Loader from "./asst/Loader";
+import Media from "./asst/Media";
 import { useEffect, useState } from "react";
+import Project from "./Project/Project";
+import GithubCont from "./asst/GithubCont";
+import Experience from "./Experience/Experience";
+import About from "./About/About";
+import Contact from "./Contact/Contact";
+import Home from "./Home/Home";
 
-function Dash() {
+function Dashborad() {
   const [loaded, setLoaded] = useState(false);
   console.log("Made With ❤️");
   let deTitle = document.title;
@@ -59,7 +59,6 @@ function Dash() {
           />
           <Media />
           <Home />
-
           <MDBContainer>
             <Experience />
           </MDBContainer>
@@ -77,4 +76,4 @@ function Dash() {
   );
 }
 
-export default Dash;
+export default Dashborad;

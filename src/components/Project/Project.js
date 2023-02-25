@@ -1,11 +1,12 @@
 import React, { useEffect } from "react";
-import { MDBIcon } from "mdb-react-ui-kit";
+
 import { AiOutlineClose } from "react-icons/ai";
 import data from "./Data";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { Link, useParams } from "react-router-dom";
 import Modal from "react-modal";
+import { MDBIcon } from "mdb-react-ui-kit";
+
 const customStyles = {
   content: {
     top: "50%",
@@ -43,7 +44,14 @@ function Project() {
       <h1 className="text-center pt-5 mb-5">Project</h1>
       <div className="d-grid text-white p-4 Container-home h-100 gap-5 home project">
         {data.slice(0, 9).map((data, id) => (
-          <div div key={data.id}>
+          <figure
+            className={data.val}
+            style={{
+              borderRadius: "10px",
+              height: "260px",
+            }}
+            data-aos={data.aos}
+          >
             <img
               src={data.img}
               className=""
@@ -54,29 +62,32 @@ function Project() {
                 objectFit: "cover",
               }}
             />
-            <Modal
-              isOpen={modalIsOpen}
-              onAfterOpen={afterOpenModal}
-              style={customStyles}
-              onRequestClose={closeModal}
-              contentLabel="Example Modal"
-            >
+            <figcaption className="bg-dark">
+              <h3>{data.title}</h3>
+              <p className="project-p">{data.info}</p>
               <div
                 style={{
-                  position: "absolute",
-                  top: "10px",
-                  right: "10px",
+                  position: "relative",
+                  top: "0px",
+                  marginTop: "2vh",
                 }}
-                onClick={closeModal}
               >
-                <AiOutlineClose size={25} />
+                <a href={data.link} target={"_blank"} className="w-50 ms-5">
+                  <button
+                    className="button-282 rounded-5 w-100"
+                    style={{
+                      height: "40px",
+                    }}
+                  >
+                    Live
+                  </button>
+                </a>
+                <a href={data.github} target="_blank">
+                  <MDBIcon fab icon="github" size="2x" />
+                </a>
               </div>
-              <div>
-                <img src={id.img} />
-                <div>{data.title}</div>
-              </div>
-            </Modal>
-          </div>
+            </figcaption>
+          </figure>
         ))}
       </div>
     </>

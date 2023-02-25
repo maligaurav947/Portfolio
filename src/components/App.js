@@ -1,12 +1,12 @@
 import React from "react";
 import { HashRouter, Route, Routes } from "react-router-dom";
-import Dash from "./components/Dash";
+import Dashborad from "./Dashborad";
 
 function App() {
   return (
     <HashRouter>
       <Routes>
-        <Route index element={<Dash />} />
+        <Route index element={<Dashborad />} />
       </Routes>
     </HashRouter>
   );
