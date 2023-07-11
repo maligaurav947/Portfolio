@@ -42,52 +42,22 @@ function Project() {
   return (
     <>
       <h1 className="text-center pt-5 mb-5">Project</h1>
-      <div className="d-grid text-white p-4 Container-home h-100 gap-5 home project">
-        {data.slice(0, 9).map((data, id) => (
-          <figure
-            className={data.val}
-            style={{
-              borderRadius: "10px",
-              height: "260px",
-            }}
-            data-aos={data.aos}
-          >
-            <img
-              src={data.img}
-              className=""
-              onClick={openModal}
-              style={{
-                width: "100%",
-                height: "260px",
-                objectFit: "cover",
-              }}
-            />
-            <figcaption className="bg-dark">
-              <h3>{data.title}</h3>
-              <p className="project-p">{data.info}</p>
-              <div
-                style={{
-                  position: "relative",
-                  top: "0px",
-                  marginTop: "2vh",
-                }}
-              >
-                <a href={data.link} target={"_blank"} className="w-50 ms-5">
-                  <button
-                    className="button-282 rounded-5 w-100"
-                    style={{
-                      height: "40px",
-                    }}
-                  >
-                    Live
-                  </button>
-                </a>
-                <a href={data.github} target="_blank">
-                  <MDBIcon fab icon="github" size="2x" />
+      <div className="d-grid home project">
+        {data.slice(0, 3).map((data, id) => (
+          <>
+            <div class="card">
+              <div class="card-header ">
+                <img src={data.img} className="card-img" alt="" />
+              </div>
+              <div class="card-body">
+                <h2 class="card-title">{data.title}</h2>
+                <p class="card-text">{data.info}</p>
+                <a href={data.link} class="btn btn-primary">
+                  {data.title}
                 </a>
               </div>
-            </figcaption>
-          </figure>
+            </div>
+          </>
         ))}
       </div>
     </>

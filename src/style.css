@@ -12,6 +12,10 @@
   color: #fff !important;
  }
  
+.card-img {
+ height: 250px;
+
+}
 
 * {
  margin: 0;

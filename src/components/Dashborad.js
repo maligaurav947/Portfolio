@@ -66,7 +66,7 @@ function Dashborad() {
           <MDBContainer>
             <About />
           </MDBContainer>
-          <GithubCont />
+
           <MDBContainer>
             <Contact />
           </MDBContainer>
