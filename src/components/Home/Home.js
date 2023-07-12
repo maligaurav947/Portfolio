@@ -136,7 +136,7 @@ function Home() {
               </a>
 
               <a
-                href="https://drive.google.com/file/d/1w0wgVdyWsUJPVOTsSuoG3KC9HuksGUrL/view?usp=sharing"
+                href="https://drive.google.com/file/d/1hqcuiJNW_pFTmwCdkuXjMVWaAxv9OcyI/view?usp=drive_link"
                 target={"_blank"}
               >
                 <button
