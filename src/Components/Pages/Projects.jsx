@@ -65,14 +65,15 @@ function Projects() {
                   </span>
                 ))}
               </div>
-              <button
+              <a
                 href={project.link}
-                className="text-blue-500 hover:underline btn btn-primary"
-                target="_blank"
+                target={"_blank"}
                 rel="noopener noreferrer"
               >
-                View Project
-              </button>
+                <button className="text-blue-500 hover:underline btn btn-primary">
+                  View Project
+                </button>
+              </a>
             </div>
           ))}
         </div>
