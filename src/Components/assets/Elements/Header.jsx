@@ -3,7 +3,7 @@ import React from "react";
 function Header() {
   return (
     <>
-      <div className="navbar bg-base-100">
+      <div className="md:hidden navbar bg-base-100 sticky top-0">
         <div className="flex-1">
           <a
             href="https://github.com/maligaurav947"
@@ -17,7 +17,7 @@ function Header() {
           <ul className="menu menu-horizontal px-1 lg:px-7 text-lg">
             <li>
               <details>
-                <summary>Navbar</summary>
+                <summary>Menu</summary>
                 <ul className="p-2 bg-base-100">
                   <li>
                     <a href="#project">Projects</a>

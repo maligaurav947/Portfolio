@@ -1,11 +1,12 @@
-import React from "react";
-
+import Aos from "aos";
+import React, { useEffect } from "react";
+import Service from "./assets/Elements/Service";
 function Hero() {
   return (
-    <section className="p-2 md:xl:2xl:px-5 md:xl:2xl:pb-5 ">
-      <main className="h-[80vh] rounded-b-2xl rounded-none md:xl:rounded-2xl md:xl:2xl:h-[70vh] main-hero bg-center lg:bg-left">
-        <div className="grid place-content-center h-full text-center bg-[#00000090] bg-blend-multiply">
-          <div className="grid gap-3">
+    <section className="p-2 md:xl:2xl:p-5">
+      <main className="h-[75vh] rounded-b-2xl rounded-none md:xl:rounded-2xl main-hero lg:h-[94vh] bg-center lg:bg-left">
+        <div className="grid place-content-center h-full text-center bg-[#0000009e] bg-blend-multiply">
+          <div className="grid gap-3" data-aos="fade-up">
             <h1 className="lg:flex justify-center items-center text-4xl font-main gap-1">
               <div className="flex items-center justify-center">
                 Hello

@@ -1,14 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Title from "./Title";
 
 const svg1 = "105";
-
 function TechStack() {
   return (
     <>
       <section className="p-5">
         <Title title="Professional Tech-Stack" />
-        <div className="grid grid-cols-3 lg:grid-cols-6 gap-6">
+        <div
+          className="grid skills grid-cols-3 lg:grid-cols-6 gap-6"
+          data-aos="fade-up"
+        >
           <div
             className={`border-2 w-${svg1} h-${svg1} grid place-content-center p-2 bg-base-200 rounded-2xl`}
           >

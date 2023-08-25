@@ -1,5 +1,4 @@
 import Aos from "aos";
-import "aos/dist/aos.css";
 import React, { useEffect, useState } from "react";
 import { FaAngleDown } from "react-icons/fa";
 import Title from "../assets/Elements/Title";
@@ -55,9 +54,6 @@ const project = [
 ];
 
 function Projects() {
-  useEffect(() => {
-    Aos.init({ once: true, duration: 1500, disable: "mobile" });
-  });
   const [next, setNext] = useState(projectContext);
   const handleMoreContext = () => {
     setNext(next + projectContext);
@@ -66,7 +62,11 @@ function Projects() {
     <>
       <section className="p-5" id="project">
         <Title title="Featured Projects" />
-        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 mb-5">
+        <div
+          className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 mb-5 "
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+        >
           {project?.slice(0, next)?.map((project, index) => (
             <div
               key={index}
@@ -75,7 +75,7 @@ function Projects() {
               <img
                 src={project.img}
                 alt={project.title}
-                className="mb-2 rounded-lg"
+                className="mb-2 opacity-75 hover:opacity-100 rounded-lg"
               />
               <h2 className="text-xl font-semibold mb-2">{project.title}</h2>
               <p className=" mb-5 line-clamp-4">{project.info}</p>
@@ -83,7 +83,7 @@ function Projects() {
                 {project.tags.map((tag, tagIndex) => (
                   <span
                     key={tagIndex}
-                    className="btn text-white bg-[#4e3d87] px-2 py-1 rounded-full text-sm mr-2"
+                    className="text-white bg-[#4e3d87] px-2 py-1 rounded-full text-sm mr-2"
                   >
                     {tag}
                   </span>

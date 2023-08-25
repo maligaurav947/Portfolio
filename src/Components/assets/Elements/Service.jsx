@@ -40,7 +40,10 @@ function Service(props) {
       <section className="">
         <main className="p-5">
           <Title title="Empowering Your Needs" />
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div
+            className="grid md:grid-cols-2 lg:grid-cols-3 gap-5"
+            data-aos="fade-up"
+          >
             {service.map((item) => (
               <>
                 <div className="flex-col flex p-4 gap-2 bg-[#4e3d87] rounded-2xl">
