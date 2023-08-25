@@ -1,8 +1,10 @@
 import Aos from "aos";
 import "aos/dist/aos.css";
-import React, { useEffect } from "react";
-
+import React, { useEffect, useState } from "react";
+import { FaAngleDown } from "react-icons/fa";
 import Title from "../assets/Elements/Title";
+
+const projectContext = 3;
 
 const project = [
   {
@@ -38,12 +40,16 @@ function Projects() {
   useEffect(() => {
     Aos.init({ once: true, duration: 1500, disable: "mobile" });
   });
+  const [next, setNext] = useState(projectContext);
+  const handleMoreContext = () => {
+    setNext(next + projectContext);
+  };
   return (
     <>
       <section className="p-5">
         <Title title="Featured Projects" />
-        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-          {project.map((project, index) => (
+        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 mb-5">
+          {project?.slice(0, next)?.map((project, index) => (
             <div
               key={index}
               className=" rounded-lg shadow-md hover:shadow-lg transition duration-300"
@@ -76,6 +82,16 @@ function Projects() {
               </a>
             </div>
           ))}
+        </div>
+        <div className="grid place-content-center text-white">
+          {next < project?.length && (
+            <>
+              <button className="flex items-center" onClick={handleMoreContext}>
+                <FaAngleDown size={30} />
+                Load more
+              </button>
+            </>
+          )}
         </div>
       </section>
     </>
