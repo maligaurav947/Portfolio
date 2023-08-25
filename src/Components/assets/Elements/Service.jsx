@@ -43,8 +43,8 @@ function Service(props) {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
             {service.map((item) => (
               <>
-                <div className="flex-col items-center text-center flex p-4 gap-2 bg-base-300 rounded-2xl">
-                  <h3 className="text-2xl font-main line-clamp-1 flex items-center gap-2 ">
+                <div className="flex-col flex p-4 gap-2 bg-[#4e3d87] rounded-2xl">
+                  <h3 className="text-2xl font-main line-clamp-1 flex items-center gap-2">
                     <span>{item.icon}</span>
                     {item.title}
                   </h3>

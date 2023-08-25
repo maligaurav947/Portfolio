@@ -8,6 +8,7 @@ import GithubData from "./Components/assets/Elements/GithubData";
 import About from "./Components/Pages/About";
 import ContactPage from "./Components/Pages/ContactPage";
 import Loader from "./Components/assets/Elements/Loader";
+import Header from "./Components/assets/Elements/Header";
 
 function App() {
   const [loaded, setLoaded] = useState(false);
@@ -23,6 +24,7 @@ function App() {
         <Loader />
       ) : (
         <>
+          <Header />
           <Hero />
           <Service />
           <Projects />

@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <section className="p-2 md:xl:2xl:p-5 ">
+    <section className="p-2 md:xl:2xl:px-5 md:xl:2xl:pb-5 ">
       <main className="h-[80vh] rounded-b-2xl rounded-none md:xl:rounded-2xl md:xl:2xl:h-[70vh] main-hero bg-center lg:bg-left">
         <div className="grid place-content-center h-full text-center bg-[#00000090] bg-blend-multiply">
           <div className="grid gap-3">

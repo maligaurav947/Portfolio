@@ -9,7 +9,7 @@ const ContactPage = () => {
     alert("Got your message we will get back to you as soon as possible");
   }
   return (
-    <section className="p-5 rounded-lg shadow-md">
+    <section className="p-5 rounded-lg shadow-md" id="contact">
       <Title title="Contact Page" />
       <p className=" mb-8">
         Have questions or want to get in touch? Feel free to reach out using the

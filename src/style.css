@@ -9,7 +9,10 @@
  background-color: #4e3d87;
 }
 
+body {
+ scroll-behavior: smooth;
+}
 
 p {
- color: aliceblue;
+ color: aliceblue !important;
 }
