@@ -1,29 +1,30 @@
-import { MDBContainer } from "mdb-react-ui-kit";
 import GitHubCalendar from "react-github-calendar";
 import React from "react";
 
-function GithubCont() {
+function GithubData() {
   return (
-    <div className="mt-5">
-      <h1 className="text-center mb-5 mt-5">GitHub Contributions Calendar</h1>
+    <section className="hidden lg:grid lg:mt-5">
+      <h1 className="text-[1.6rem] lg:text-4xl font-main text-center mb-2">
+        Days I Code
+      </h1>
       <div
-        className="pt-1 pb-1 ps-4 d-grid bg-dark"
+        className="grid place-content-center"
         style={{
           height: "40vh",
         }}
       >
-        <MDBContainer className="text-light">
+        <div className="text-light">
           <GitHubCalendar
             username="maligaurav947"
             transformData={selectLastHalfYear}
             hideColorLegend={false}
-            blockSize={18}
+            blockSize={20}
             hideTotalCount={false}
             showWeekdayLabels={true}
           />
-        </MDBContainer>
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
 
@@ -44,4 +45,4 @@ const selectLastHalfYear = (contributions) => {
   });
 };
 
-export default GithubCont;
+export default GithubData;
