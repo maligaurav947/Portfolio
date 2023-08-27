@@ -1,6 +1,4 @@
-import Aos from "aos";
-import React, { useEffect } from "react";
-import Service from "./assets/Elements/Service";
+import React from "react";
 function Hero() {
   return (
     <section className="p-2 md:xl:2xl:p-5">
@@ -24,7 +22,7 @@ function Hero() {
               together!"
             </p>
             <div>
-              <button className="font-main btn btn-wide">
+              <button className="font-primary btn btn-wide">
                 LEARN MORE ABOUT ME
               </button>
             </div>

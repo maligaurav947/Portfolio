@@ -10,6 +10,7 @@ import Header from "./Components/assets/Elements/Header";
 import "./style.css";
 import "aos/dist/aos.css";
 import Aos from "aos";
+import Blog from "./Components/Pages/Blog";
 
 function App() {
   const [loaded, setLoaded] = useState(false);
@@ -28,10 +29,10 @@ function App() {
         <Loader />
       ) : (
         <>
-          <Header />
           <Hero />
           <Service />
           <Projects />
+          <Blog />
           <TechStack />
           <ContactPage />
           <About />

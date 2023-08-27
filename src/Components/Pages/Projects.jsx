@@ -1,9 +1,6 @@
-import Aos from "aos";
-import React, { useEffect, useState } from "react";
-import { FaAngleDown } from "react-icons/fa";
+import React, { useState } from "react";
 import Title from "../assets/Elements/Title";
-
-const projectContext = 3;
+import { RxCode, RxChevronDown } from "react-icons/rx";
 
 const project = [
   {
@@ -52,6 +49,7 @@ const project = [
     data: "top",
   },
 ];
+const projectContext = 3;
 
 function Projects() {
   const [next, setNext] = useState(projectContext);
@@ -61,7 +59,10 @@ function Projects() {
   return (
     <>
       <section className="p-5" id="project">
-        <Title title="Featured Projects" />
+        <div className="flex items-center gap-1">
+          <RxCode style={{ color: "white" }} size={30} />
+          <Title title="Featured Projects" />
+        </div>
         <div
           className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 mb-5 "
           data-aos="fade-up"
@@ -77,8 +78,12 @@ function Projects() {
                 alt={project.title}
                 className="mb-2 opacity-75 hover:opacity-100 rounded-lg"
               />
-              <h2 className="text-xl font-semibold mb-2">{project.title}</h2>
-              <p className=" mb-5 line-clamp-4">{project.info}</p>
+              <h3 className="text-2xl font-primary font-medium mb-2">
+                {project.title}
+              </h3>
+              <p className="text-base mb-5 text-white line-clamp-4 font-secondary">
+                {project.info}
+              </p>
               <div className="mb-4 flex flex-wrap gap-2">
                 {project.tags.map((tag, tagIndex) => (
                   <span
@@ -94,9 +99,7 @@ function Projects() {
                 target={"_blank"}
                 rel="noopener noreferrer"
               >
-                <button className="text-blue-500 hover:underline btn btn-primary">
-                  View Project
-                </button>
+                <button className="btn btn-wide">View Project</button>
               </a>
             </div>
           ))}
@@ -104,8 +107,11 @@ function Projects() {
         {next < project?.length && (
           <div className="grid place-content-center">
             <div className=" text-white btn bg-[#4e3d87]">
-              <button className="flex items-center" onClick={handleMoreContext}>
-                <FaAngleDown size={30} />
+              <button
+                className="flex items-center font-primary"
+                onClick={handleMoreContext}
+              >
+                <RxChevronDown size={30} />
                 Load more
               </button>
             </div>

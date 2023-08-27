@@ -1,6 +1,10 @@
 import React from "react";
-import { PiBrowsersThin, PiDeviceMobileCameraDuotone } from "react-icons/pi";
-import { FaReact } from "react-icons/fa";
+import {
+  RxCrosshair1,
+  RxDimensions,
+  RxFrame,
+  RxBorderSplit,
+} from "react-icons/rx";
 import Title from "./Title";
 const service = [
   {
@@ -8,7 +12,7 @@ const service = [
     info: "This is the core service where you create visually appealing and functional websites using HTML, CSS, and JavaScript. Clients are always looking for professional-looking websites that reflect their brand and engage their target audience. By mastering this service, you can cater to a wide range of clients who need an online presence.",
     icon: (
       <>
-        <PiBrowsersThin />
+        <RxFrame />
       </>
     ),
   },
@@ -18,7 +22,7 @@ const service = [
 
     icon: (
       <>
-        <PiDeviceMobileCameraDuotone />
+        <RxDimensions />
       </>
     ),
   },
@@ -28,7 +32,7 @@ const service = [
 
     icon: (
       <>
-        <FaReact />
+        <RxBorderSplit />
       </>
     ),
   },
@@ -39,7 +43,15 @@ function Service(props) {
     <>
       <section className="">
         <main className="p-5">
-          <Title title="Empowering Your Needs" />
+          <div className="flex items-center gap-1">
+            <RxCrosshair1
+              size={30}
+              style={{
+                color: "white",
+              }}
+            />
+            <Title title="Empowering Your Needs" />
+          </div>
           <div
             className="grid md:grid-cols-2 lg:grid-cols-3 gap-5"
             data-aos="fade-up"
@@ -47,11 +59,11 @@ function Service(props) {
             {service.map((item) => (
               <>
                 <div className="flex-col flex p-4 gap-2 bg-[#4e3d87] rounded-2xl">
-                  <h3 className="text-2xl font-main line-clamp-1 flex items-center gap-2">
+                  <h3 className="text-2xl font-primary line-clamp-1 flex items-center font-medium  gap-2">
                     <span>{item.icon}</span>
                     {item.title}
                   </h3>
-                  <p className="text-justify first-letter:font-semibold first-letter:text-xl font-secondary">
+                  <p className="text-justify first-letter:text-xl font-secondary line-clamp-3 lg:line-clamp-none">
                     {item.info}
                   </p>
                 </div>

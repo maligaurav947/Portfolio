@@ -33,7 +33,7 @@ function About() {
     <section className="p-5 bg-[#4e3d87]">
       <div className="">
         <Title title="About" />
-        <p className="mb-8 font-primary">
+        <p className="mb-5 font-secondary text-base">
           Hey there! I'm a passionate web developer on a journey to create
           awesome things on the web. My goal is to turn ideas into reality
           through code and design.
@@ -43,10 +43,10 @@ function About() {
         {info.map((data) => (
           <>
             <div className="mb-1 lg:mb-0 bg-[#09090b] p-5 rounded-2xl">
-              <h2 className="text-xl font-semibold mb-2 font-main border-b-2">
+              <h2 className="text-xl font-semibold mb-2 font-main ">
                 {data.title}
               </h2>
-              <p className="font-primary">{data.info}</p>
+              <p className="font-secondary text-base">{data.info}</p>
             </div>
           </>
         ))}

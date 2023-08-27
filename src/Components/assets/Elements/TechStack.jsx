@@ -1,12 +1,16 @@
 import React, { useEffect } from "react";
 import Title from "./Title";
-
+import { RxFrame } from "react-icons/rx";
 const svg1 = "105";
 function TechStack() {
   return (
     <>
       <section className="p-5">
-        <Title title="Professional Tech-Stack" />
+        <div className="flex items-center gap-1">
+          <RxFrame size={30} color="white" />
+          <Title title="Professional Tech-Stack" />
+        </div>
+
         <div
           className="grid skills grid-cols-3 lg:grid-cols-6 gap-6"
           data-aos="fade-up"

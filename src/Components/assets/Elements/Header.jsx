@@ -3,12 +3,13 @@ import React from "react";
 function Header() {
   return (
     <>
-      <div className="md:hidden navbar bg-base-100 sticky top-0">
+      <header className="md:hidden navbar bg-base-100 sticky top-0 ">
         <div className="flex-1">
           <a
             href="https://github.com/maligaurav947"
             target={"_blank"}
             className="btn btn-ghost normal-case text-xl"
+            rel="noreferrer"
           >
             @maligaurav947
           </a>
@@ -30,7 +31,7 @@ function Header() {
             </li>
           </ul>
         </div>
-      </div>
+      </header>
     </>
   );
 }

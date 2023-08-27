@@ -1,8 +1,7 @@
-import React, { useEffect } from "react";
-
+import React from "react";
+import { RxCalendar } from "react-icons/rx";
 import { useForm, ValidationError } from "@formspree/react";
 import Title from "../assets/Elements/Title";
-import Aos from "aos";
 
 const ContactPage = () => {
   const [state, handleSubmit] = useForm("xzbowwea");
@@ -11,8 +10,11 @@ const ContactPage = () => {
   }
   return (
     <section className="p-5 rounded-lg shadow-md" id="contact">
-      <Title title="Contact Page" />
-      <p className=" mb-8">
+      <div className="flex items-center gap-1">
+        <RxCalendar size={30} color="white" />
+        <Title title="Contact Page" />
+      </div>
+      <p className="mb-8 font-secondary text-base">
         Have questions or want to get in touch? Feel free to reach out using the
         contact form or the provided contact details.
       </p>
@@ -84,7 +86,7 @@ const ContactPage = () => {
             <button
               type="submit"
               disabled={state.submitting}
-              className="btn btn-primary"
+              className="btn btn-wide"
             >
               Send Message
             </button>
@@ -94,9 +96,12 @@ const ContactPage = () => {
 
       <div className="bg-[#4e3d87] p-3 rounded-2xl">
         <h2 className="text-xl font-semibold mb-2">Contact Details</h2>
-        <p className="">
+        <p className="font-secondary text-base">
           You can also reach me at{" "}
-          <a href="mailto:hello@example.com" className=" hover:underline">
+          <a
+            href="mailto:gmali2809@gmail.com"
+            className="hover:underline hover:text-black"
+          >
             hello@example.com
           </a>
           . Feel free to drop a message or connect on social media!
