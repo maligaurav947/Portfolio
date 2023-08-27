@@ -5,8 +5,8 @@
 
 .main-hero {
  background: url(https://blush.design/api/download?shareUri=2CC873ZoWCpGukho&c=New%2520Palette%25201_0%7E000000&bg=4e3d87&w=800&h=800&fm=png) no-repeat;
-  background-size: 100vh;
  background-attachment: fixed;
+ background-position: left bottom 50% !important;
  background-color: #4e3d87;
 }
 
@@ -20,4 +20,9 @@ p {
 .skills div:hover {
  transition: all ease 0.5s;
  background-color: #4e3d87;
+}
+@media (max-width: 640px) {
+ .main-hero {
+  background-position: right !important;
+ }
 }
