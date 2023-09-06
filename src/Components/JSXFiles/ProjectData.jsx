@@ -1,10 +1,15 @@
-import React, { useState } from "react";
-import Title from "../assets/Elements/Title";
-import { RxCode, RxChevronDown } from "react-icons/rx";
-
-const project = [
+const ProjectData = [
   {
     id: "1",
+    img: "https://camo.githubusercontent.com/4e21cc606d0773463429eddcf4588d0f978f5e4c4057082d85d0d7cb21ac6d3d/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f752f302f64726976652d7669657765722f41495446772d78425f4e736b4343534d536e472d6e39664476616a425939715174424f64317a633736766b6d76336c305f2d587258356f65516f35316a657250664562586c6b495a4c466853636c4e584649345a34435373346a6f6a3366555a3d77313932302d68383833",
+    title: "React Task Managament",
+    tags: ["HTML", "React.js", "TailwindCSS"],
+    info: "This is a simple task management app built using React that allows you to manage your tasks based on three levels of priority: High, Medium, and Low. You can create, edit, delete tasks, and also move them between different priority lists With Local Session Storage System.",
+    link: "https://maligaurav947.github.io/react-task-management/",
+    data: "top",
+  },
+  {
+    id: "2",
     img: "https://github.com/maligaurav947/Portfolio/blob/master/src/Components/assets/img/main-home.png?raw=true",
     title: "Moviedb React",
     tags: ["HTML", "TailwindCSS", "React.js", "Router"],
@@ -13,7 +18,7 @@ const project = [
     data: "top",
   },
   {
-    id: "2",
+    id: "3",
     img: "https://github.com/maligaurav947/Portfolio/blob/master/src/Components/assets/img/Reactecommercestoere.png?raw=true",
     title: "React Ecommerce Store",
     tags: ["React", "HTML", "AOS", "BootStrap", "BootStrap Components"],
@@ -22,7 +27,7 @@ const project = [
     data: "top",
   },
   {
-    id: "3",
+    id: "4",
     img: "https://github.com/maligaurav947/Portfolio/blob/master/src/Components/assets/img/Weather-react-app.png?raw=true",
     title: "React Weather App",
     tags: ["React", "HTML", "Axios", "API", "Router", "TailWindCSS"],
@@ -31,7 +36,7 @@ const project = [
     data: "top",
   },
   {
-    id: "4",
+    id: "5",
     img: "https://github.com/maligaurav947/Portfolio/blob/master/src/Components/assets/img/reactquizapp.png?raw=true",
     title: "React Quiz App",
     tags: ["HTML", "React.js", "TailwindCSS"],
@@ -40,7 +45,7 @@ const project = [
     data: "top",
   },
   {
-    id: "3",
+    id: "6",
     img: "https://github.com/maligaurav947/Portfolio/blob/master/src/Components/assets/img/reactstudentdeatils.png?raw=true",
     title: "Student Details System",
     tags: ["React.js", "HTML", "Firebase", "TailwindCSS", "Responsive Design"],
@@ -49,77 +54,5 @@ const project = [
     data: "top",
   },
 ];
-const projectContext = 3;
 
-function Projects() {
-  const [next, setNext] = useState(projectContext);
-  const handleMoreContext = () => {
-    setNext(next + projectContext);
-  };
-  return (
-    <>
-      <section className="p-5" id="project">
-        <div className="flex items-center gap-1">
-          <RxCode style={{ color: "white" }} size={30} />
-          <Title title="Featured Projects" />
-        </div>
-        <div
-          className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 mb-5 "
-          data-aos="fade-up"
-          data-aos-anchor-placement="top-bottom"
-        >
-          {project?.slice(0, next)?.map((project, index) => (
-            <div
-              key={index}
-              className=" rounded-lg shadow-md hover:shadow-lg transition duration-300"
-            >
-              <img
-                src={project.img}
-                alt={project.title}
-                className="mb-2 opacity-75 hover:opacity-100 rounded-lg"
-              />
-              <h3 className="text-2xl font-primary font-medium mb-2">
-                {project.title}
-              </h3>
-              <p className="text-base mb-5 text-white line-clamp-4 font-secondary">
-                {project.info}
-              </p>
-              <div className="mb-4 flex flex-wrap gap-2">
-                {project.tags.map((tag, tagIndex) => (
-                  <span
-                    key={tagIndex}
-                    className="text-white bg-[#4e3d87] px-2 py-1 rounded-full text-sm mr-2"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-              <a
-                href={project.link}
-                target={"_blank"}
-                rel="noopener noreferrer"
-              >
-                <button className="btn btn-wide">View Project</button>
-              </a>
-            </div>
-          ))}
-        </div>
-        {next < project?.length && (
-          <div className="grid place-content-center">
-            <div className=" text-white btn bg-[#4e3d87]">
-              <button
-                className="flex items-center font-primary"
-                onClick={handleMoreContext}
-              >
-                <RxChevronDown size={30} />
-                Load more
-              </button>
-            </div>
-          </div>
-        )}
-      </section>
-    </>
-  );
-}
-
-export default Projects;
+export default ProjectData;

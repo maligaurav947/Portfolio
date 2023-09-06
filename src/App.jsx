@@ -1,16 +1,15 @@
 import React, { useEffect, useState } from "react";
 import Hero from "./Components/Hero";
-import Projects from "./Components/Pages/Projects";
-import Service from "./Components/assets/Elements/Service";
-import TechStack from "./Components/assets/Elements/TechStack";
-import About from "./Components/Pages/About";
+import Service from "./Components/Sections/Service";
+import Projects from "./Components/Sections/Projects";
+import Blog from "./Components/Sections/Blog";
+import TechStack from "./Components/Sections/TechStack";
 import ContactPage from "./Components/Pages/ContactPage";
-import Loader from "./Components/assets/Elements/Loader";
-import Header from "./Components/assets/Elements/Header";
+import Footer from "./Components/assets/Footer";
+import Loader from "./Components/assets/Loader";
+import Aos from "aos";
 import "./style.css";
 import "aos/dist/aos.css";
-import Aos from "aos";
-import Blog from "./Components/Pages/Blog";
 
 function App() {
   const [loaded, setLoaded] = useState(false);
@@ -35,7 +34,7 @@ function App() {
           <Blog />
           <TechStack />
           <ContactPage />
-          <About />
+          <Footer />
         </>
       )}
     </>

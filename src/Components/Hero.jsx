@@ -1,7 +1,8 @@
 import React from "react";
+import { FaGithub, FaLinkedin, FaSkype, FaDev } from "react-icons/fa";
 function Hero() {
   return (
-    <section className="p-2 md:xl:2xl:p-5">
+    <section className="p-2 md:xl:2xl:p-5 relative">
       <main className="h-[75vh] rounded-b-2xl rounded-none md:xl:rounded-2xl main-hero lg:h-[94vh]">
         <div className="grid place-content-center h-full text-center bg-[#0000009e] bg-blend-multiply">
           <div className="grid gap-3" data-aos="fade-up">
@@ -24,6 +25,44 @@ function Hero() {
             <div>
               <button className="font-primary btn btn-wide">
                 LEARN MORE ABOUT ME
+              </button>
+            </div>
+            <div className="flex place-content-center gap-2">
+              <button className="btn btn-circle text-white">
+                <a
+                  href="https://github.com/maligaurav947"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <FaGithub size={30} />
+                </a>
+              </button>
+              <button className="btn btn-circle text-white">
+                <a
+                  href="https://www.linkedin.com/in/gaurav-mali-669869214/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <FaLinkedin size={30} />
+                </a>
+              </button>
+              <button className="btn btn-circle text-white">
+                <a
+                  href="skype:live:.cid.782ef791786c9ed1?chat"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <FaSkype size={30} />
+                </a>
+              </button>
+              <button className="btn btn-circle text-white">
+                <a
+                  href="https://dev.to/maligaurav947"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <FaDev size={30} />
+                </a>
               </button>
             </div>
           </div>

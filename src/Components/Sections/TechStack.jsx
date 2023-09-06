@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
-import Title from "./Title";
+import React from "react";
 import { RxFrame } from "react-icons/rx";
-import Techdata from "./Techdata";
+import Techdata from "../JSXFiles/Techdata";
+import Title from "./../assets/Title";
 
 function TechStack() {
   return (

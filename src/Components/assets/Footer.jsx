@@ -1,5 +1,5 @@
 import React from "react";
-import Title from "../assets/Elements/Title";
+import Title from "./Title";
 
 const info = [
   {
@@ -28,7 +28,7 @@ const info = [
   },
 ];
 
-function About() {
+function Footer() {
   return (
     <section className="p-5 bg-[#4e3d87]">
       <div className="">
@@ -55,4 +55,4 @@ function About() {
   );
 }
 
-export default About;
+export default Footer;

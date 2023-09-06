@@ -1,7 +1,7 @@
 import React from "react";
+import Title from "./../assets/Title";
 import { RxCalendar } from "react-icons/rx";
 import { useForm, ValidationError } from "@formspree/react";
-import Title from "../assets/Elements/Title";
 
 const ContactPage = () => {
   const [state, handleSubmit] = useForm("xzbowwea");
@@ -20,13 +20,6 @@ const ContactPage = () => {
       </p>
 
       <div className="mb-7 lg:flex items-center justify-center gap-5 flex-wrap">
-        <div className="hidden lg:grid" data-aos="fade-right">
-          <img
-            src="https://img.freepik.com/free-vector/flat-design-illustration-customer-support_23-2148887720.jpg?w=740&t=st=1692944549~exp=1692945149~hmac=673d0546dc75845187cbce879d9d73acdc4bd1cc5bfbca84aed96806ced52073"
-            alt="contact-page-img"
-            className="w-[400px] rounded-2xl mix-blend-lighten "
-          />
-        </div>
         <form
           className="grid grid-cols-2 gap-5 mt-2"
           onSubmit={handleSubmit}
