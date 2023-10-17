@@ -24,12 +24,11 @@ function Hero() {
             </p>
             <div>
               <a
-                href="https://drive.google.com/file/d/1Iul0EsitgPV5c7RhnJ93yuUmyyeT4Uji/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Iul0EsitgPV5c7RhnJ93yuUmyyeT4Uji/view?usp=drive_link"
                 target={"_blank"}
-                rel="noreferrer"
               >
                 <button className="font-primary btn btn-wide">
-                  Download the cv
+                  LEARN MORE ABOUT ME
                 </button>
               </a>
             </div>
