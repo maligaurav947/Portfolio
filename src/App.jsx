@@ -10,6 +10,7 @@ import Loader from "./Components/assets/Loader";
 import Aos from "aos";
 import "./style.css";
 import "aos/dist/aos.css";
+import AboutMe from "./Components/Sections/AboutMe";
 
 function App() {
   const [loaded, setLoaded] = useState(false);
@@ -31,6 +32,7 @@ function App() {
           <Hero />
           <Service />
           <Projects />
+          <AboutMe />
           <Blog />
           <TechStack />
           <ContactPage />

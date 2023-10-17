@@ -23,9 +23,15 @@ function Hero() {
               together!"
             </p>
             <div>
-              <button className="font-primary btn btn-wide">
-                LEARN MORE ABOUT ME
-              </button>
+              <a
+                href="https://drive.google.com/file/d/1Iul0EsitgPV5c7RhnJ93yuUmyyeT4Uji/view?usp=sharing"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                <button className="font-primary btn btn-wide">
+                  Download the cv
+                </button>
+              </a>
             </div>
             <div className="flex place-content-center gap-2">
               <button className="btn btn-circle text-white">
