@@ -10,7 +10,7 @@ const ProjectData = [
   },
   {
     id: "2",
-    img: "https://camo.githubusercontent.com/4e21cc606d0773463429eddcf4588d0f978f5e4c4057082d85d0d7cb21ac6d3d/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f752f302f64726976652d7669657765722f41495446772d78425f4e736b4343534d536e472d6e39664476616a425939715174424f64317a633736766b6d76336c305f2d587258356f65516f35316a657250664562586c6b495a4c466853636c4e584649345a34435373346a6f6a3366555a3d77313932302d68383833",
+    img: "https://github.com/maligaurav947/Portfolio/blob/master/src/Components/assets/img/task.png?raw=true",
     title: "React Task Managament",
     tags: ["HTML", "React.js", "TailwindCSS"],
     info: "This is a simple task management app built using React that allows you to manage your tasks based on three levels of priority: High, Medium, and Low. You can create, edit, delete tasks, and also move them between different priority lists With Local Session Storage System.",
