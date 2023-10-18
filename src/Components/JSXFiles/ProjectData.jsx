@@ -1,6 +1,15 @@
 const ProjectData = [
   {
     id: "1",
+    img: "https://raw.githubusercontent.com/maligaurav947/Portfolio/master/src/Components/assets/img/musemeld.png",
+    title: "musemeld",
+    tags: ["React.js", "TailwindCSS", "Firebase"],
+    info: "I developed a feature-rich social media app using React.js and Firebase, which included user authentication, real-time data updates, and a user-friendly interface. The project allowed users to sign in or sign up via email and Google authentication, create, edit, and delete posts, view user profiles, and interact with posts in real-time",
+    link: "https://github.com/maligaurav947/musemeld",
+    data: "top",
+  },
+  {
+    id: "2",
     img: "https://camo.githubusercontent.com/4e21cc606d0773463429eddcf4588d0f978f5e4c4057082d85d0d7cb21ac6d3d/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f752f302f64726976652d7669657765722f41495446772d78425f4e736b4343534d536e472d6e39664476616a425939715174424f64317a633736766b6d76336c305f2d587258356f65516f35316a657250664562586c6b495a4c466853636c4e584649345a34435373346a6f6a3366555a3d77313932302d68383833",
     title: "React Task Managament",
     tags: ["HTML", "React.js", "TailwindCSS"],
@@ -9,7 +18,7 @@ const ProjectData = [
     data: "top",
   },
   {
-    id: "2",
+    id: "3",
     img: "https://github.com/maligaurav947/Portfolio/blob/master/src/Components/assets/img/main-home.png?raw=true",
     title: "Moviedb React",
     tags: ["HTML", "TailwindCSS", "React.js", "Router"],
@@ -18,7 +27,7 @@ const ProjectData = [
     data: "top",
   },
   {
-    id: "3",
+    id: "4",
     img: "https://github.com/maligaurav947/Portfolio/blob/master/src/Components/assets/img/Reactecommercestoere.png?raw=true",
     title: "React Ecommerce Store",
     tags: ["React", "HTML", "AOS", "BootStrap", "BootStrap Components"],
@@ -27,7 +36,7 @@ const ProjectData = [
     data: "top",
   },
   {
-    id: "4",
+    id: "5",
     img: "https://github.com/maligaurav947/Portfolio/blob/master/src/Components/assets/img/Weather-react-app.png?raw=true",
     title: "React Weather App",
     tags: ["React", "HTML", "Axios", "API", "Router", "TailWindCSS"],
@@ -36,7 +45,7 @@ const ProjectData = [
     data: "top",
   },
   {
-    id: "5",
+    id: "6",
     img: "https://github.com/maligaurav947/Portfolio/blob/master/src/Components/assets/img/reactquizapp.png?raw=true",
     title: "React Quiz App",
     tags: ["HTML", "React.js", "TailwindCSS"],
@@ -45,7 +54,7 @@ const ProjectData = [
     data: "top",
   },
   {
-    id: "6",
+    id: "7",
     img: "https://github.com/maligaurav947/Portfolio/blob/master/src/Components/assets/img/reactstudentdeatils.png?raw=true",
     title: "Student Details System",
     tags: ["React.js", "HTML", "Firebase", "TailwindCSS", "Responsive Design"],
