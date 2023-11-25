@@ -3,11 +3,11 @@ import { RxCrosshair1 } from "react-icons/rx";
 import ServiceData from "./../JSXFiles/ServiceData";
 import Title from "./../assets/Title";
 
-function Service(props) {
+function Service() {
   return (
     <>
-      <section className="">
-        <main className="p-5">
+      <section>
+        <main>
           <div className="flex items-center gap-1">
             <RxCrosshair1
               size={30}

@@ -9,7 +9,7 @@ const ContactPage = () => {
     alert("Got your message we will get back to you as soon as possible");
   }
   return (
-    <section className="p-5 rounded-lg shadow-md" id="contact">
+    <section className="rounded-lg shadow-md" id="contact">
       <div className="flex items-center gap-1">
         <RxCalendar size={30} color="white" />
         <Title title="Contact Page" />

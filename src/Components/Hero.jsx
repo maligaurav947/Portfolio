@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaSkype, FaDev } from "react-icons/fa";
 function Hero() {
   return (
-    <section className="p-2 md:xl:2xl:p-5 relative">
+    <section className="md:xl:2xl:p-5 relative">
       <main className="h-[75vh] rounded-b-2xl rounded-none md:xl:rounded-2xl main-hero lg:h-[94vh]">
         <div className="grid place-content-center h-full text-center bg-[#0000009e] bg-blend-multiply">
           <div className="grid gap-3" data-aos="fade-up">

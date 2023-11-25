@@ -7,7 +7,7 @@ import Title from "./../assets/Title";
 const Blog = () => {
   return (
     <>
-      <section className="p-5" id="item">
+      <section id="item">
         <div className="flex items-center gap-1">
           <RxRocket
             size={30}

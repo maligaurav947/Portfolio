@@ -12,7 +12,7 @@ function Projects() {
   };
   return (
     <>
-      <section className="p-5" id="project">
+      <section id="project">
         <div className="flex items-center gap-1">
           <RxCode style={{ color: "white" }} size={30} />
           <Title title="Featured Projects" />

@@ -6,7 +6,7 @@ import Title from "./../assets/Title";
 function TechStack() {
   return (
     <>
-      <section className="p-5">
+      <section>
         <div className="flex items-center gap-1">
           <RxFrame size={30} color="white" />
           <Title title="Professional Tech-Stack" />

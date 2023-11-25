@@ -30,7 +30,7 @@ const info = [
 
 function Footer() {
   return (
-    <section className="p-5 bg-[#4e3d87]">
+    <section className=" bg-[#4e3d87]">
       <div className="">
         <Title title="About" />
         <p className="mb-5 font-secondary text-base">
